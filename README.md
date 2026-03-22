@@ -182,20 +182,6 @@ philosophy: "Design the system first. Then write the code."
 
 <h2 align="center">&#128640; What I'm Building</h2>
 
-<div align="center">
-<br/>
-
-<!-- PROJECT 1: ATOMOS -->
-<a href="https://github.com/ziadmomen10/atomos">
-<img width="430" src="https://github-readme-stats.vercel.app/api/pin/?username=ziadmomen10&repo=atomos&theme=react&bg_color=0d1117&border_color=1f6feb&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&show_owner=true" />
-</a>&nbsp;&nbsp;
-<!-- PROJECT 2: COMMUNITY -->
-<a href="https://github.com/ziadmomen10/community-platform">
-<img width="430" src="https://github-readme-stats.vercel.app/api/pin/?username=ziadmomen10&repo=community-platform&theme=react&bg_color=0d1117&border_color=1f6feb&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&show_owner=true" />
-</a>
-
-</div>
-
 <br/>
 
 <table align="center">
