@@ -86,67 +86,111 @@ fun_fact: "I architect backends by day and ship full products by night"
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;Featured Projects
+## &#128640; Featured Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/ziadmomen10/atomos">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=ziadmomen10&repo=atomos&theme=github_dark&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=8b949e" />
-</a>
-<a href="https://github.com/ziadmomen10/community-platform">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=ziadmomen10&repo=community-platform&theme=github_dark&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=8b949e" />
-</a>
-<a href="https://github.com/ziadmomen10/cloudpilot">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=ziadmomen10&repo=cloudpilot&theme=github_dark&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=8b949e" />
-</a>
-<a href="https://github.com/ziadmomen10/perfect-match-app">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=ziadmomen10&repo=perfect-match-app&theme=github_dark&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=8b949e" />
-</a>
+### <img src="https://img.shields.io/badge/&#9200;-0d1117?style=flat-square" /> AtomOS
+**Time-Based Venue Operating System**
 
-</div>
+A modern full-stack management platform for coworking spaces, study hubs, and shared venues with real-time session tracking, billing, and analytics.
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/&#127760;-0d1117?style=flat-square" /> Community Platform
+**Multi-Tenant SaaS Platform**
+
+Full-stack community management platform with NestJS backend, React frontend, normalized PostgreSQL schema (32 tables), multi-tenant architecture, and role-based access control.
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/&#9729;&#65039;-0d1117?style=flat-square" /> CloudPilot
+**Remote Dev Workspace Orchestration**
+
+Cloud-based development workspace manager that provisions, manages, and orchestrates remote Claude Code environments with seamless terminal access.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/&#128142;-0d1117?style=flat-square" /> Perfect Match
+**Intelligent Matching Platform**
+
+Smart matching application with algorithm-driven pairing, real-time notifications, and an intuitive modern UI.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 <br/>
 
 <details>
-<summary><b>&#127970; Ulta-Host  -  AI Infrastructure & Hosting Platform</b></summary>
+<summary><b>&#127970; Ulta-Host &mdash; AI-Powered Hosting Infrastructure (7 repos)</b></summary>
 <br/>
 <div align="center">
 
-> Building the AI-powered hosting management ecosystem  -  from mobile apps to distributed daemon infrastructure
-
-| Project | Stack | Description |
-|---------|-------|-------------|
-| **ulta-ai-daemon** | `Go` `gRPC` | Secure daemon for remote task execution with comprehensive security controls |
-| **ulta-ai-daemon-service** | `Go` `gRPC` | Central orchestration service managing daemons across distributed infrastructure |
-| **ulta-ai-chat-service** | `Go` `GPT` | AI logic, GPT integration & allowlist for HTTP client and VM-agent executions |
-| **ulta-ai-actions** | `Go` | Secure VM-agent for remote executions on client VMs |
-| **ulta-ai-api** | `TypeScript` | Core API layer for the AI platform |
-| **ulta-ai-web** | `TypeScript` `React` | Web dashboard for AI infrastructure management |
-| **ulta_host_app** | `Flutter` `Dart` | Mobile client for managing hosting products, domains, invoices & support |
+> Building the AI-powered hosting management ecosystem &mdash; from mobile apps to distributed daemon infrastructure
 
 </div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**&#129302; AI Daemon System** `Go` `gRPC`
+> Secure gRPC-based daemon that connects to the orchestration service for remote task execution with comprehensive security controls
+
+**&#127919; Daemon Service** `Go` `gRPC`
+> Central orchestration service managing daemons and actions across distributed infrastructure
+
+**&#128172; AI Chat Service** `Go` `GPT`
+> AI logic, GPT integration & allowlist for HTTP client and VM-agent executions
+
+**&#9889; AI Actions** `Go`
+> Secure VM-agent for remote executions on client VMs
+
+</td>
+<td width="50%" valign="top">
+
+**&#128421;&#65039; AI API** `TypeScript` `Node.js`
+> Core API layer powering the entire AI platform
+
+**&#127912; AI Web Dashboard** `TypeScript` `React`
+> Web dashboard for AI infrastructure management and monitoring
+
+**&#128241; UltaHost Mobile** `Flutter` `Dart`
+> Full-featured mobile client for managing hosting products, domains, invoices, payments, support tickets & notifications
+
+</td>
+</tr>
+</table>
+
 </details>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ras/giphy.gif" width="28"> &nbsp;GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ziadmomen10&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=8b949e&hide_border=false&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ziadmomen10&theme=github-dark-blue&background=0d1117&border=161b22&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
-
-<br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ziadmomen10&layout=donut-vertical&theme=github_dark&bg_color=0d1117&border_color=161b22&title_color=58a6ff&text_color=8b949e&hide_border=false&langs_count=8&hide=html,css" />
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ziadmomen10&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=161b22&hide_border=true&custom_title=Contribution%20Graph" />
-</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -168,6 +212,20 @@ fun_fact: "I architect backends by day and ship full products by night"
 |                                                           |
 +-----------------------------------------------------------+
 ```
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## &#128202; GitHub Activity
+
+<div align="center">
+
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=ziadmomen10&theme=github-dark-blue&background=0d1117&border=161b22&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
+
+<br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ziadmomen10&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=161b22&hide_border=true&custom_title=Contribution%20Graph" />
 
 </div>
 
