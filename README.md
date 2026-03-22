@@ -1,17 +1,20 @@
 <div align="center">
 
-<!-- ══════════════════════ HERO ══════════════════════ -->
+<!-- ══════════════════════ CUSTOM ANIMATED HEADER ══════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,10:161b22,30:1f6feb,50:58a6ff,70:1f6feb,90:161b22,100:0d1117&height=230&section=header&text=Ziad%20Momen&fontSize=80&fontColor=ffffff&fontAlignY=32&desc=%E2%9A%A1%20Full-Stack%20Engineer%20%E2%80%A2%20Infrastructure%20Architect%20%E2%80%A2%20AI%20Builder%20%E2%9A%A1&descSize=17&descColor=58a6ff&descAlignY=55&animation=fadeIn" />
+<a href="https://github.com/ziadmomen10">
+<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/header.svg" alt="Ziad Momen" />
+</a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=110&lines=%F0%9F%8F%97%EF%B8%8F+Architecting+distributed+systems+at+scale;%F0%9F%A4%96+Building+AI-powered+platforms+%26+agents;%F0%9F%9A%80+TypeScript+%E2%80%A2+Go+%E2%80%A2+React+%E2%80%A2+NestJS+%E2%80%A2+Flutter" alt="Typing SVG" /></a>
+<!-- TYPING ANIMATION -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=520&height=45&lines=Distributed+Systems+%26+AI+Platforms;TypeScript+%C2%B7+Go+%C2%B7+React+%C2%B7+NestJS+%C2%B7+Flutter;Microservices+to+Mobile+%E2%80%94+End+to+End" alt="Typing SVG" /></a>
 
-<br/>
+<br/><br/>
 
-<a href="https://github.com/ziadmomen10?tab=repositories"><img src="https://img.shields.io/badge/24%2B_Repos-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22" /></a>&nbsp;
-<a href="https://github.com/ziadmomen10?tab=followers"><img src="https://img.shields.io/github/followers/ziadmomen10?style=for-the-badge&color=0d1117&labelColor=161b22&logo=github&logoColor=58a6ff&label=Followers" /></a>&nbsp;
+<a href="https://github.com/ziadmomen10?tab=repositories"><img src="https://custom-icon-badges.demolab.com/badge/24%2B_Repos-0d1117?style=for-the-badge&logo=repo&logoColor=58a6ff&labelColor=161b22" /></a>&nbsp;
+<a href="https://github.com/ziadmomen10?tab=followers"><img src="https://custom-icon-badges.demolab.com/github/followers/ziadmomen10?style=for-the-badge&color=0d1117&labelColor=161b22&logo=person-add&logoColor=58a6ff&label=Followers" /></a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=ziadmomen10&style=for-the-badge&color=0d1117&label=VISITORS&abbreviated=true" />&nbsp;
-<a href="mailto:ziadmomen10@gmail.com"><img src="https://img.shields.io/badge/Hire_Me-58a6ff?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:ziadmomen10@gmail.com"><img src="https://custom-icon-badges.demolab.com/badge/Hire_Me-58a6ff?style=for-the-badge&logo=mail&logoColor=white" /></a>
 
 </div>
 
@@ -22,26 +25,24 @@
 <details open>
 <summary><h2>&#128104;&#8205;&#128187; About Me</h2></summary>
 
-<br/>
-
 ```yaml
 name: Ziad Momen
 located_in: Egypt
 role: Full-Stack Software Engineer & Infrastructure Architect
 
 company: Ulta-Host
-  doing: Building AI-powered hosting infrastructure with Go microservices,
-         gRPC daemons, Flutter mobile, and React dashboards
+  building: AI-powered hosting infrastructure — Go microservices,
+            gRPC daemons, Flutter mobile, React dashboards
 
 side_projects:
   atomos:       "Time-Based Venue OS — Next.js 16 + Prisma + React 19"
-  community:    "Multi-tenant SaaS — NestJS + PostgreSQL (32-table schema)"
-  cloudpilot:   "Remote dev workspace orchestration platform"
+  community:    "Multi-tenant SaaS — NestJS + PostgreSQL (32 tables)"
+  cloudpilot:   "Remote dev workspace orchestration"
 
-daily_stack:    ["TypeScript", "Go", "React", "NestJS", "PostgreSQL", "Docker"]
-mobile_stack:   ["Flutter", "Dart"]
-infra_stack:    ["gRPC", "GitHub Actions", "Linux", "Nginx"]
-ai_stack:       ["OpenAI GPT", "Anthropic Claude", "LLM Agents"]
+daily:     ["TypeScript", "Go", "React", "NestJS", "PostgreSQL", "Docker"]
+mobile:    ["Flutter", "Dart"]
+infra:     ["gRPC", "GitHub Actions", "Linux", "Nginx"]
+ai:        ["OpenAI GPT", "Anthropic Claude", "LLM Agents"]
 
 philosophy: "Design the system first. Then write the code."
 ```
@@ -52,8 +53,6 @@ philosophy: "Design the system first. Then write the code."
 
 <details open>
 <summary><h2>&#9889; Tech Stack</h2></summary>
-
-<br/>
 
 <div align="center">
 <table>
@@ -169,8 +168,6 @@ philosophy: "Design the system first. Then write the code."
 <details open>
 <summary><h2>&#128640; What I'm Building</h2></summary>
 
-<br/>
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -180,9 +177,7 @@ philosophy: "Design the system first. Then write the code."
 
 **Time-Based Venue Operating System**
 
-A full-stack management platform for coworking spaces, study hubs, and shared venues. Real-time session tracking, automated billing, multi-zone management, and analytics.
-
-<br/>
+Full-stack platform for coworking spaces and shared venues. Real-time session tracking, automated billing, multi-zone management, and analytics.
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,prisma,ts,tailwind,docker&theme=dark" />
 </div>
@@ -195,9 +190,7 @@ A full-stack management platform for coworking spaces, study hubs, and shared ve
 
 **Multi-Tenant SaaS**
 
-Enterprise community management with NestJS backend, React frontend, normalized PostgreSQL schema (32 tables), tenant isolation, RBAC, and full CMS.
-
-<br/>
+Enterprise community management &mdash; NestJS backend, React frontend, PostgreSQL (32 tables), tenant isolation, RBAC, and full CMS.
 
 <img src="https://skillicons.dev/icons?i=nestjs,react,postgres,ts,redis,docker&theme=dark" />
 </div>
@@ -212,9 +205,7 @@ Enterprise community management with NestJS backend, React frontend, normalized 
 
 **Remote Dev Workspace Orchestration**
 
-Cloud platform that provisions, manages, and orchestrates remote development environments with seamless terminal access and lifecycle management.
-
-<br/>
+Provisions, manages, and orchestrates remote development environments with seamless terminal access and lifecycle management.
 
 <img src="https://skillicons.dev/icons?i=ts,nodejs,docker,linux,git&theme=dark" />
 </div>
@@ -227,9 +218,7 @@ Cloud platform that provisions, manages, and orchestrates remote development env
 
 **Intelligent Matching Platform**
 
-Smart matching application with algorithm-driven pairing, real-time notifications, preference learning, and a modern interface.
-
-<br/>
+Algorithm-driven pairing with real-time notifications, preference learning, and a modern interface.
 
 <img src="https://skillicons.dev/icons?i=ts,react,nodejs,tailwind&theme=dark" />
 </div>
@@ -238,16 +227,14 @@ Smart matching application with algorithm-driven pairing, real-time notification
 </tr>
 </table>
 
-<br/>
-
 <details>
-<summary><h3>&#127970; Ulta-Host &mdash; AI-Powered Hosting Infrastructure &nbsp;<sup>(7 repos &mdash; click to expand)</sup></h3></summary>
+<summary><h3>&#127970; Ulta-Host &mdash; AI-Powered Hosting Infrastructure <sup>(7 repos)</sup></h3></summary>
 
 <br/>
 
 <div align="center">
 
-> *Next-gen AI hosting ecosystem &mdash; 7 interconnected services: mobile, web, API, and distributed daemon infrastructure*
+> *Next-gen AI hosting ecosystem &mdash; 7 interconnected services spanning mobile, web, API, and distributed daemon infrastructure*
 
 </div>
 
@@ -274,10 +261,10 @@ Smart matching application with algorithm-driven pairing, real-time notification
 </tr>
 <tr>
 <td align="center" width="140"><b>&#127912; AI Web</b><br/><sub><code>React</code> <code>TS</code></sub></td>
-<td>Web dashboard for infrastructure management and monitoring</td>
+<td>Dashboard for infrastructure management and monitoring</td>
 </tr>
 <tr>
-<td align="center" width="140"><b>&#128241; Mobile</b><br/><sub><code>Flutter</code> <code>Dart</code></sub></td>
+<td align="center" width="140"><b>&#128241; Mobile</b><br/><sub><code>Flutter</code></sub></td>
 <td>Full-featured client: hosting, domains, invoices, payments, tickets</td>
 </tr>
 </table>
@@ -285,27 +272,24 @@ Smart matching application with algorithm-driven pairing, real-time notification
 <div align="center">
 <br/>
 <img src="https://skillicons.dev/icons?i=go,ts,react,flutter,dart,docker,linux,nginx,redis,postgres&theme=dark" />
-<br/>
 </div>
 
 </details>
 
 </details>
 
-<!-- ══════════════════════ GITHUB STATS ══════════════════════ -->
+<!-- ══════════════════════ STATS ══════════════════════ -->
 
 <details open>
 <summary><h2>&#128200; GitHub Analytics</h2></summary>
 
-<br/>
-
 <div align="center">
 
 <a href="https://github.com/ziadmomen10">
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ziadmomen10&theme=github-dark-blue&background=0d1117&border=161b22&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ziadmomen10&theme=github-dark-blue&background=0d1117&border=161b22&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
 </a>
 <a href="https://github.com/ziadmomen10">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ziadmomen10&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true&hide=contribs" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ziadmomen10&show_icons=true&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true&hide_border=false&hide=contribs" />
 </a>
 
 </div>
@@ -384,8 +368,8 @@ Smart matching application with algorithm-driven pairing, real-time notification
 
 <div align="center">
 
-<a href="https://github.com/ziadmomen10"><img src="https://img.shields.io/badge/GitHub-ziadmomen10-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" /></a>&nbsp;&nbsp;
-<a href="mailto:ziadmomen10@gmail.com"><img src="https://img.shields.io/badge/Gmail-ziadmomen10-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22" /></a>
+<a href="https://github.com/ziadmomen10"><img src="https://custom-icon-badges.demolab.com/badge/GitHub-ziadmomen10-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" /></a>&nbsp;&nbsp;
+<a href="mailto:ziadmomen10@gmail.com"><img src="https://custom-icon-badges.demolab.com/badge/Gmail-ziadmomen10-EA4335?style=for-the-badge&logo=mail&logoColor=white&labelColor=161b22" /></a>
 
 <br/><br/>
 
@@ -393,6 +377,6 @@ Smart matching application with algorithm-driven pairing, real-time notification
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,10:161b22,30:1f6feb,50:58a6ff,70:1f6feb,90:161b22,100:0d1117&height=130&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,10:161b22,30:1f6feb,50:58a6ff,70:1f6feb,90:161b22,100:0d1117&height=120&section=footer" />
 
 </div>
