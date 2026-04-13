@@ -7,11 +7,11 @@
 </a>
 
 <!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=520&height=45&lines=Distributed+Systems+%26+AI+Platforms;TypeScript+%C2%B7+Go+%C2%B7+React+%C2%B7+NestJS+%C2%B7+Flutter;Microservices+to+Mobile+%E2%80%94+End+to+End" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=600&height=45&lines=Product+%2B+Infrastructure+%2B+AI;TypeScript+%C2%B7+React+%C2%B7+Node+%C2%B7+Supabase+%C2%B7+Docker;Building+Production+Systems+End+to+End" alt="Typing SVG" /></a>
 
 <br/><br/>
 
-<a href="https://github.com/ziadmomen10?tab=repositories"><img src="https://custom-icon-badges.demolab.com/badge/24%2B_Repos-0d1117?style=for-the-badge&logo=repo&logoColor=58a6ff&labelColor=161b22" /></a>&nbsp;
+<a href="https://github.com/ziadmomen10?tab=repositories"><img src="https://custom-icon-badges.demolab.com/badge/26+_Repos-0d1117?style=for-the-badge&logo=repo&logoColor=58a6ff&labelColor=161b22" /></a>&nbsp;
 <a href="https://github.com/ziadmomen10?tab=followers"><img src="https://custom-icon-badges.demolab.com/github/followers/ziadmomen10?style=for-the-badge&color=0d1117&labelColor=161b22&logo=person-add&logoColor=58a6ff&label=Followers" /></a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=ziadmomen10&style=for-the-badge&color=0d1117&label=VISITORS&abbreviated=true" />&nbsp;
 <a href="mailto:ziadmomen10@gmail.com"><img src="https://custom-icon-badges.demolab.com/badge/Hire_Me-58a6ff?style=for-the-badge&logo=mail&logoColor=white" /></a>
@@ -28,21 +28,24 @@
 ```yaml
 name: Ziad Momen
 located_in: Egypt
-role: Full-Stack Software Engineer & Infrastructure Architect
+role: Technical Product Owner & DevOps Engineer
 
-company: Ulta-Host
-  building: AI-powered hosting infrastructure — Go microservices,
-            gRPC daemons, Flutter mobile, React dashboards
+company: UltaHost
+  focus: Self-hosted infrastructure, Lovable app migration,
+         AI-assisted development workflows
 
-side_projects:
-  atomos:       "Time-Based Venue OS — Next.js 16 + Prisma + React 19"
-  community:    "Multi-tenant SaaS — NestJS + PostgreSQL (32 tables)"
-  cloudpilot:   "Remote dev workspace orchestration"
+building:
+  host_once_platform: "Multi-project DevOps platform — automated Lovable migration"
+  fitme:              "Mobile fitness coaching marketplace — Expo + Supabase"
+  atomos:             "Time-Based Venue OS — Next.js 16 + Prisma + React 19"
+  cloudpilot:         "Remote Claude Code workspace — web + desktop"
+  community:          "Multi-tenant SaaS backend — NestJS + PostgreSQL"
 
-daily:     ["TypeScript", "Go", "React", "NestJS", "PostgreSQL", "Docker"]
-mobile:    ["Flutter", "Dart"]
-infra:     ["gRPC", "GitHub Actions", "Linux", "Nginx"]
-ai:        ["OpenAI GPT", "Anthropic Claude", "LLM Agents"]
+daily:     ["TypeScript", "React", "Hono", "Bun", "PostgreSQL", "Docker"]
+mobile:    ["Expo", "React Native"]
+backend:   ["NestJS", "Hono", "Drizzle", "BullMQ", "Supabase"]
+infra:     ["Docker", "GitHub Actions", "Nginx", "Linux", "SSH"]
+ai:        ["Claude API", "NVIDIA NIM", "LLM Agents", "Claude Code"]
 
 philosophy: "Design the system first. Then write the code."
 ```
@@ -62,16 +65,8 @@ philosophy: "Design the system first. Then write the code."
 <br><b>TypeScript</b>
 </td>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=go" width="48" height="48" alt="Go" />
-<br><b>Go</b>
-</td>
-<td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
 <br><b>JavaScript</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="Dart" />
-<br><b>Dart</b>
 </td>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=py" width="48" height="48" alt="Python" />
@@ -86,23 +81,19 @@ philosophy: "Design the system first. Then write the code."
 <br><b>Next.js</b>
 </td>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=flutter" width="48" height="48" alt="Flutter" />
-<br><b>Flutter</b>
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nestjs" width="48" height="48" alt="NestJS" />
-<br><b>NestJS</b>
-</td>
-<td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
 <br><b>Node.js</b>
 </td>
 <td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="GraphQL" />
-<br><b>GraphQL</b>
+<img src="https://skillicons.dev/icons?i=bun" width="48" height="48" alt="Bun" />
+<br><b>Bun</b>
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=nestjs" width="48" height="48" alt="NestJS" />
+<br><b>NestJS</b>
+</td>
+</tr>
+<tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
 <br><b>Tailwind</b>
@@ -123,8 +114,6 @@ philosophy: "Design the system first. Then write the code."
 <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
 <br><b>Redis</b>
 </td>
-</tr>
-<tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
 <br><b>Docker</b>
@@ -137,6 +126,8 @@ philosophy: "Design the system first. Then write the code."
 <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
 <br><b>Linux</b>
 </td>
+</tr>
+<tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
 <br><b>Nginx</b>
@@ -157,6 +148,18 @@ philosophy: "Design the system first. Then write the code."
 <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
 <br><b>Figma</b>
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=grafana" width="48" height="48" alt="Grafana" />
+<br><b>Grafana</b>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=prometheus" width="48" height="48" alt="Prometheus" />
+<br><b>Prometheus</b>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=electron" width="48" height="48" alt="Electron" />
+<br><b>Electron</b>
+</td>
 </tr>
 </table>
 </div>
@@ -172,12 +175,46 @@ philosophy: "Design the system first. Then write the code."
 <tr>
 <td width="50%" valign="top">
 
+<h3 align="center">&#9881;&#65039; HostOnce Platform</h3>
+<div align="center">
+
+**Multi-Project DevOps Platform**
+
+Automated Lovable app migration to self-hosted infrastructure. 5-step onboarding wizard, 14-step provisioning pipeline, real-time monitoring, AI-assisted operations.
+
+`React 19` `Hono` `Bun` `Drizzle` `BullMQ` `Redis` `Docker`
+
+<img src="https://skillicons.dev/icons?i=react,ts,redis,postgres,docker,linux&theme=dark" />
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">&#128170; FitMe</h3>
+<div align="center">
+
+**Fitness Coaching Marketplace**
+
+Mobile-first platform for booking fitness coaches. Real-time chat, AI content moderation (NVIDIA NIM), video sessions, Stripe payments. Trust and safety built into the data layer.
+
+`Expo SDK 54` `React Native` `Supabase` `Edge Functions` `PostGIS`
+
+<img src="https://skillicons.dev/icons?i=react,ts,supabase,postgres,docker&theme=dark" />
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <h3 align="center">&#9200; AtomOS</h3>
 <div align="center">
 
 **Time-Based Venue Operating System**
 
-Full-stack platform for coworking spaces and shared venues. Real-time session tracking, automated billing, multi-zone management, and analytics.
+Full-stack platform for coworking spaces. Session tracking, automated billing engine, subscriptions, cash register, cafeteria POS, inventory, loyalty, analytics, and Telegram integration.
+
+`Next.js 16` `React 19` `Prisma` `TypeScript` `Tailwind` `Docker`
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,prisma,ts,tailwind,docker&theme=dark" />
 </div>
@@ -185,42 +222,16 @@ Full-stack platform for coworking spaces and shared venues. Real-time session tr
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center">&#127760; Community Platform</h3>
-<div align="center">
-
-**Multi-Tenant SaaS**
-
-Enterprise community management &mdash; NestJS backend, React frontend, PostgreSQL (32 tables), tenant isolation, RBAC, and full CMS.
-
-<img src="https://skillicons.dev/icons?i=nestjs,react,postgres,ts,redis,docker&theme=dark" />
-</div>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 <h3 align="center">&#9729;&#65039; CloudPilot</h3>
 <div align="center">
 
-**Remote Dev Workspace Orchestration**
+**Remote Claude Code Workspace**
 
-Provisions, manages, and orchestrates remote development environments with seamless terminal access and lifecycle management.
+Self-hosted web + desktop app for accessing Claude Code from any device. Live terminals via WebSocket, project manager, session persistence, and a Windows companion app.
 
-<img src="https://skillicons.dev/icons?i=ts,nodejs,docker,linux,git&theme=dark" />
-</div>
+`TypeScript` `Electron` `xterm.js` `WebSocket` `Node.js`
 
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">&#128142; Perfect Match</h3>
-<div align="center">
-
-**Intelligent Matching Platform**
-
-Algorithm-driven pairing with real-time notifications, preference learning, and a modern interface.
-
-<img src="https://skillicons.dev/icons?i=ts,react,nodejs,tailwind&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ts,nodejs,electron,docker,linux&theme=dark" />
 </div>
 
 </td>
@@ -228,50 +239,87 @@ Algorithm-driven pairing with real-time notifications, preference learning, and 
 </table>
 
 <details>
-<summary><h3>&#127970; Ulta-Host &mdash; AI-Powered Hosting Infrastructure <sup>(7 repos)</sup></h3></summary>
+<summary><h3>&#127760; Community Platform &mdash; Multi-Tenant SaaS Backend</h3></summary>
 
 <br/>
 
 <div align="center">
 
-> *Next-gen AI hosting ecosystem &mdash; 7 interconnected services spanning mobile, web, API, and distributed daemon infrastructure*
+> *Enterprise community management backend &mdash; 20 modules, multi-tenant isolation, full billing and CMS*
 
 </div>
 
 <table>
 <tr>
-<td align="center" width="140"><b>&#129302; AI Daemon</b><br/><sub><code>Go</code> <code>gRPC</code></sub></td>
-<td>Secure gRPC-based daemon for remote task execution with comprehensive security controls</td>
+<td align="center" width="140"><b>&#128100; Auth</b><br/><sub><code>JWT</code> <code>Passport</code></sub></td>
+<td>Email/password auth with access + refresh tokens, bcrypt hashing, rate limiting</td>
 </tr>
 <tr>
-<td align="center" width="140"><b>&#127919; Daemon Svc</b><br/><sub><code>Go</code> <code>gRPC</code></sub></td>
-<td>Central orchestration managing daemons and actions across distributed infrastructure</td>
+<td align="center" width="140"><b>&#127970; Tenants</b><br/><sub><code>TypeORM</code></sub></td>
+<td>Multi-tenant isolation &mdash; each community is a fully isolated tenant</td>
 </tr>
 <tr>
-<td align="center" width="140"><b>&#128172; Chat Svc</b><br/><sub><code>Go</code> <code>GPT</code></sub></td>
-<td>AI logic engine with GPT integration, allowlists, and VM-agent execution routing</td>
+<td align="center" width="140"><b>&#128176; Billing</b><br/><sub><code>Stripe</code></sub></td>
+<td>Subscriptions, invoicing, and payment processing via Stripe</td>
 </tr>
 <tr>
-<td align="center" width="140"><b>&#9889; Actions</b><br/><sub><code>Go</code></sub></td>
-<td>Secure VM-agent enabling remote command execution on client VMs</td>
+<td align="center" width="140"><b>&#128218; Courses</b><br/><sub><code>Enrollments</code></sub></td>
+<td>Course catalog, enrollment management, and progress tracking</td>
 </tr>
 <tr>
-<td align="center" width="140"><b>&#128421;&#65039; AI API</b><br/><sub><code>TypeScript</code></sub></td>
-<td>Core API layer: auth, billing, and resource management</td>
+<td align="center" width="140"><b>&#128172; Messages</b><br/><sub><code>Notifications</code></sub></td>
+<td>In-app messaging, email notifications via Resend, and event system</td>
 </tr>
 <tr>
-<td align="center" width="140"><b>&#127912; AI Web</b><br/><sub><code>React</code> <code>TS</code></sub></td>
-<td>Dashboard for infrastructure management and monitoring</td>
-</tr>
-<tr>
-<td align="center" width="140"><b>&#128241; Mobile</b><br/><sub><code>Flutter</code></sub></td>
-<td>Full-featured client: hosting, domains, invoices, payments, tickets</td>
+<td align="center" width="140"><b>&#128270; Search</b><br/><sub><code>Analytics</code></sub></td>
+<td>Full-text search, audit logging, and usage analytics</td>
 </tr>
 </table>
 
 <div align="center">
 <br/>
-<img src="https://skillicons.dev/icons?i=go,ts,react,flutter,dart,docker,linux,nginx,redis,postgres&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nestjs,ts,postgres,redis,docker&theme=dark" />
+</div>
+
+</details>
+
+<details>
+<summary><h3>&#127970; UltaHost &mdash; Production Hosting Infrastructure</h3></summary>
+
+<br/>
+
+<div align="center">
+
+> *Self-hosted production infrastructure serving real customers &mdash; Docker orchestration, CI/CD, monitoring, and self-hosted Supabase*
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="160"><b>&#128187; App Server</b><br/><sub>9 containers</sub></td>
+<td>Production + testing environments, Nginx reverse proxy, Let's Encrypt SSL, kernel-tuned for scale</td>
+</tr>
+<tr>
+<td align="center" width="160"><b>&#128451;&#65039; Database Server</b><br/><sub>27 containers</sub></td>
+<td>Self-hosted Supabase (production + testing stacks), PostgreSQL tuned (5GB shared_buffers), WAL archiving, daily backups</td>
+</tr>
+<tr>
+<td align="center" width="160"><b>&#128202; Monitoring</b><br/><sub>Prometheus + Grafana</sub></td>
+<td>Prometheus metrics, Grafana dashboards, Loki log aggregation, Promtail, node-exporter</td>
+</tr>
+<tr>
+<td align="center" width="160"><b>&#128640; CI/CD</b><br/><sub>GitHub Actions</sub></td>
+<td>SHA-pinned actions, dependency auditing, auto-rollback on failure, manual production gate</td>
+</tr>
+<tr>
+<td align="center" width="160"><b>&#128736;&#65039; DevOps Dashboard</b><br/><sub>React + Hono</sub></td>
+<td>Real-time infrastructure control panel &mdash; 11 pages, 20+ API endpoints, 15 AI-powered operations tools</td>
+</tr>
+</table>
+
+<div align="center">
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,linux,nginx,postgres,supabase,grafana,prometheus,githubactions&theme=dark" />
 </div>
 
 </details>
@@ -323,7 +371,7 @@ Algorithm-driven pairing with real-time notifications, preference learning, and 
 <!-- ══════════════════════ PHILOSOPHY ══════════════════════ -->
 
 <details>
-<summary><h2>&#129504; Architecture Philosophy</h2></summary>
+<summary><h2>&#129504; How I Work</h2></summary>
 
 <br/>
 
@@ -331,29 +379,29 @@ Algorithm-driven pairing with real-time notifications, preference learning, and 
 
 ```
                     +-----------------------------------------+
-                    |       A R C H I T E C T U R E           |
+                    |       P R I N C I P L E S               |
                     +-----------------------------------------+
                     |                                         |
                     |   DESIGN FIRST                          |
-                    |   +-- Whiteboard before keyboard        |
+                    |   +-- Architect before coding           |
                     |   +-- Data model drives everything      |
-                    |   +-- Align, then execute               |
+                    |   +-- Align on the plan, then execute   |
                     |                                         |
-                    |   SCALE BY DEFAULT                      |
-                    |   +-- Multi-tenant from day one         |
-                    |   +-- gRPC + REST, always decoupled     |
-                    |   +-- Horizontal, never vertical        |
+                    |   REAL DATA ONLY                        |
+                    |   +-- No mocks, no placeholders         |
+                    |   +-- Empty state over fake state       |
+                    |   +-- Every value from a real source    |
                     |                                         |
-                    |   SHIP EVERYWHERE                       |
+                    |   SHIP COMPLETE                         |
                     |   +-- Web     --> React / Next.js       |
-                    |   +-- Mobile  --> Flutter               |
-                    |   +-- API     --> NestJS / Go           |
+                    |   +-- Mobile  --> Expo / React Native   |
+                    |   +-- Backend --> Hono / NestJS / Bun   |
                     |   +-- Infra   --> Docker + CI/CD        |
                     |                                         |
                     |   AI AS INFRASTRUCTURE                  |
-                    |   +-- LLMs as first-class services      |
-                    |   +-- Agent orchestration at scale      |
-                    |   +-- Intelligent automation            |
+                    |   +-- Claude Code for development       |
+                    |   +-- LLM agents for operations         |
+                    |   +-- AI moderation in production       |
                     |                                         |
                     +-----------------------------------------+
 ```
