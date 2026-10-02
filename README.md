@@ -1,20 +1,19 @@
 <div align="center">
 
-<!-- ══════════════════════ CUSTOM ANIMATED HEADER ══════════════════════ -->
+<!-- ══════════════════════ HEADER ══════════════════════ -->
 
 <a href="https://github.com/ziadmomen10">
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/header.svg" alt="Ziad Momen" />
 </a>
 
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=600&height=45&lines=Product+%2B+Infrastructure+%2B+AI;TypeScript+%C2%B7+React+%C2%B7+Node+%C2%B7+Supabase+%C2%B7+Docker;Building+Production+Systems+End+to+End" alt="Typing SVG" /></a>
+<a href="https://github.com/ziadmomen10/zaude"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=640&height=45&lines=Don't+vibe+code.+Zaude+code.;Product+%2B+Platform+%2B+AI+agents;Shipped+%3D+green+build+%2B+0+critical+%2B+live+verified;TypeScript+%C2%B7+React+%C2%B7+Supabase+%C2%B7+Docker+%C2%B7+Python" alt="Typing SVG" /></a>
 
 <br/><br/>
 
-<a href="https://github.com/ziadmomen10?tab=repositories"><img src="https://custom-icon-badges.demolab.com/badge/26+_Repos-0d1117?style=for-the-badge&logo=repo&logoColor=58a6ff&labelColor=161b22" /></a>&nbsp;
+<a href="https://github.com/ziadmomen10/zaude"><img src="https://custom-icon-badges.demolab.com/badge/Creator_of-Zaude™-58a6ff?style=for-the-badge&logo=rocket&logoColor=white&labelColor=161b22" /></a>&nbsp;
 <a href="https://github.com/ziadmomen10?tab=followers"><img src="https://custom-icon-badges.demolab.com/github/followers/ziadmomen10?style=for-the-badge&color=0d1117&labelColor=161b22&logo=person-add&logoColor=58a6ff&label=Followers" /></a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=ziadmomen10&style=for-the-badge&color=0d1117&label=VISITORS&abbreviated=true" />&nbsp;
-<a href="mailto:ziadmomen10@gmail.com"><img src="https://custom-icon-badges.demolab.com/badge/Hire_Me-58a6ff?style=for-the-badge&logo=mail&logoColor=white" /></a>
+<a href="mailto:ziadmomen10@gmail.com"><img src="https://custom-icon-badges.demolab.com/badge/Let's_Talk-58a6ff?style=for-the-badge&logo=mail&logoColor=white" /></a>
 
 </div>
 
@@ -25,30 +24,177 @@
 <details open>
 <summary><h2>&#128104;&#8205;&#128187; About Me</h2></summary>
 
+I'm a **Technical Product Owner & Platform Engineer at [UltaHost](https://ultahost.com)** in Egypt. I own products from the first data model to the production server. I spec, design, ship, and operate them, and I use AI agents as an engineering team that has to prove its work.
+
+My rule: **"done" means evidence.** That means a green build with a real exit code, a review by several different AI models with zero critical or high findings, and a check of the live app. Anything less is a claim, not a result.
+
 ```yaml
-name: Ziad Momen
-located_in: Egypt
-role: Technical Product Owner & DevOps Engineer
+role:        Technical Product Owner & Platform Engineer @ UltaHost
+location:    Egypt
 
-company: UltaHost
-  focus: Self-hosted infrastructure, Lovable app migration,
-         AI-assisted development workflows
+shipping_now:
+  zaude:          "Open-source governance layer for Claude Code (284 kernel tests)"
+  hosting_ai:     "AI server-management assistant: plan → authorize → execute → verify"
+  supabase_ops:   "Platform that migrates apps onto self-hosted Supabase (6,000+ tests in CI)"
+  community_os:   "Multi-tenant course & community SaaS (NestJS · RTL · signed S3 video)"
 
-building:
-  host_once_platform: "Multi-project DevOps platform — automated Lovable migration"
-  fitme:              "Mobile fitness coaching marketplace — Expo + Supabase"
-  atomos:             "Time-Based Venue OS — Next.js 16 + Prisma + React 19"
-  cloudpilot:         "Remote Claude Code workspace — web + desktop"
-  community:          "Multi-tenant SaaS backend — NestJS + PostgreSQL"
+in_production:
+  atomos:         "Venue operating system running a real coworking space"
+  ai_console_ui:  "Rebuilt a production AI product UI from Figma (776 tests, zero regressions)"
 
-daily:     ["TypeScript", "React", "Hono", "Bun", "PostgreSQL", "Docker"]
-mobile:    ["Expo", "React Native"]
-backend:   ["NestJS", "Hono", "Drizzle", "BullMQ", "Supabase"]
-infra:     ["Docker", "GitHub Actions", "Nginx", "Linux", "SSH"]
-ai:        ["Claude API", "NVIDIA NIM", "LLM Agents", "Claude Code"]
-
-philosophy: "Design the system first. Then write the code."
+languages:  [TypeScript, Python, JavaScript, SQL, Bash, PowerShell]
+frontend:   [React 19, Next.js, Vite, Tailwind, shadcn/ui, TanStack Query, Expo]
+backend:    [NestJS, Hono, Bun, Express, Prisma, Drizzle, TypeORM, BullMQ]
+data:       [PostgreSQL, Supabase (self-hosted + RLS), Redis, MongoDB, NATS, SQLite]
+infra:      [Docker, GitHub Actions, GHCR, Caddy, Nginx, Linux, Proxmox/LXC, Tailscale]
+ai:         [Claude API, Claude Code, multi-model review, LiteLLM, n8n agents]
+quality:    [Playwright, Jest, Vitest, OpenAPI drift gates, CI ratchets]
 ```
+
+</details>
+
+<!-- ══════════════════════ FLAGSHIP ══════════════════════ -->
+
+<details open>
+<summary><h2>&#11088; Flagship &mdash; Zaude&trade;</h2></summary>
+
+<div align="center">
+
+<a href="https://github.com/ziadmomen10/zaude"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ziadmomen10&repo=zaude&bg_color=0d1117&border_color=1f6feb&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9" alt="Zaude repo card" /></a>
+
+### *Don't vibe code. Zaude code.*
+
+**An autonomous, self-governing layer on top of Claude Code, built for people who ship to production.**
+
+</div>
+
+Use Claude Code for a few weeks on a real project and it starts each session cold, ships unreviewed code if you ask it to, and gets reviewed by only one model, with that model's blind spots. Zaude fixes all three with a small kernel that uses only the Python standard library and never calls an API:
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**&#129504; Persistent memory.** Hooks load each project's vault (state, decisions, session logs) at start. The next session picks up where the last one stopped, with its reasons.
+
+**&#128272; Signed lifecycle.** A hash-chained, HMAC-signed state machine runs *review → verify → ship*. It gates Claude Code's own tools, so a step can't be skipped. It can only be waived, and the waiver is logged.
+
+</td>
+<td width="50%" valign="top">
+
+**&#129517; Intent routing.** Describe what you want in plain language and it routes to the right flow with a safety mode (auto / propose / confirm). You don't need to memorize commands.
+
+**&#9878;&#65039; 5-model review panel.** Claude, Codex, OpenCode, Kimi, and GLM review every change independently. Different models catch different bugs. One seat alone caught 8 real HIGH issues before merge.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+`Python (stdlib-only)` `Claude Code hooks` `HMAC-signed trace` `GitHub Projects v2` `Bash + PowerShell installers` `MIT`
+
+<a href="https://github.com/ziadmomen10/zaude"><img src="https://img.shields.io/badge/kernel_tests-284_passing-10b981?style=flat-square" /></a>
+<a href="https://github.com/ziadmomen10/zaude/blob/main/GUIDE.md"><img src="https://img.shields.io/badge/read-the_guide-58a6ff?style=flat-square" /></a>
+
+</div>
+
+</details>
+
+<!-- ══════════════════════ WORK ══════════════════════ -->
+
+<details open>
+<summary><h2>&#128640; What I Build</h2></summary>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">&#129302; AI Server-Management Assistant</h3>
+<div align="center"><sub><b>UltaHost · active</b></sub></div>
+
+A chat interface that **plans, authorizes, executes, verifies, and repairs** work on real customer servers through an on-server agent. It's built as multiple independent services, with an authorization gate on every action.
+
+`TypeScript` `PostgreSQL` `Event streaming` `LLM gateway` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">&#9881;&#65039; Self-Hosted Supabase Migration Platform</h3>
+<div align="center"><sub><b>UltaHost · active</b></sub></div>
+
+A multi-tenant platform that moves apps from Supabase Cloud to self-hosted Supabase. It has an onboarding wizard, a sync engine for schema, functions, and storage, and a review gate that protects production data.
+
+**6,085 tests** in a grouped CI lane · **129 OpenAPI operations** with drift gates
+
+`Bun` `TypeScript` `PostgreSQL 16` `BullMQ` `Redis` `React 19` `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">&#9200; AtomOS</h3>
+<div align="center"><sub><b>Client · live in production</b></sub></div>
+
+The operating system for a coworking venue: check-in, time-based billing, subscriptions, POS, cash reconciliation, bookings, and analytics. It has separate manager and front-desk modes.
+
+**25+ data models** · dual-ledger wallet with **race-safe checkout** · concurrency-tested billing
+
+`Next.js` `React 19` `Prisma 7` `NextAuth` `Tailwind 4` `Docker` `GHCR`
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">&#127760; CommunityOS</h3>
+<div align="center"><sub><b>Collaboration · active</b></sub></div>
+
+A multi-tenant community and course platform: courses, events, billing, messaging, RBAC, and full Arabic RTL support. Private video is served through signed, immutable S3 delivery.
+
+**47/47 security findings fixed** (15 critical) · **175 Playwright E2E** + 113 backend tests · restore drill **12/12**
+
+`NestJS 11` `TypeORM` `PostgreSQL` `React` `Caddy` `Garage S3`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">&#127912; AI Product UI Rebuild</h3>
+<div align="center"><sub><b>UltaHost · shipped</b></sub></div>
+
+Rebuilt a production AI product's interface from Figma while keeping every piece of business logic. 35 commits made only in production were merged in without losing a feature.
+
+**776 tests green** · `tsc` clean · zero regressions at cutover
+
+`React` `TypeScript` `Tailwind` `shadcn/Radix` `Supabase`
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">&#128196; Masir</h3>
+<div align="center"><sub><b>Personal SaaS · live MVP</b></sub></div>
+
+A CV builder with a deterministic ATS engine. The PDF is rendered from the same preview the user sees.
+
+**36 ATS rules** · **10 industry profiles** · job-match scoring across 7 dimensions · English + Arabic analysis
+
+`Next.js` `Supabase + RLS` `Zod` `Zustand` `Playwright PDF`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><h3>&#129520; More builds</h3></summary>
+
+| Project | What | Stack |
+|---|---|---|
+| **AI Hiring Pipeline** | Recruiting proof of concept: screened 10 CVs in 71s with zero node failures | `n8n` `Claude API` `Postgres` `Docker` |
+| **FitMe** | Mobile marketplace for fitness coaches: 28 tables with RLS, ~35 screens, 119 tests | `Expo 54` `React Native` `Supabase` `PostGIS` |
+| **zhost.lab** | Proxmox homelab with 14 LXC services, self-healing watchdogs, and a custom Bun + Hono ops console | `Proxmox` `LXC` `Tailscale` `Caddy` |
+| **Internal DevOps Dashboard** | Real-time infrastructure control panel: 11 pages, 20+ endpoints, 15 AI ops tools | `React` `Hono` `Bun` `Claude API` |
+
+</details>
 
 </details>
 
@@ -58,353 +204,77 @@ philosophy: "Design the system first. Then write the code."
 <summary><h2>&#9889; Tech Stack</h2></summary>
 
 <div align="center">
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-<br><b>TypeScript</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-<br><b>JavaScript</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=py" width="48" height="48" alt="Python" />
-<br><b>Python</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-<br><b>React</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-<br><b>Next.js</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-<br><b>Node.js</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=bun" width="48" height="48" alt="Bun" />
-<br><b>Bun</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nestjs" width="48" height="48" alt="NestJS" />
-<br><b>NestJS</b>
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
-<br><b>Tailwind</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
-<br><b>PostgreSQL</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
-<br><b>Prisma</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" />
-<br><b>Supabase</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
-<br><b>Redis</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
-<br><b>Docker</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="CI/CD" />
-<br><b>CI/CD</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-<br><b>Linux</b>
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
-<br><b>Nginx</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-<br><b>Git</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
-<br><b>GitHub</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
-<br><b>VS Code</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
-<br><b>Figma</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=grafana" width="48" height="48" alt="Grafana" />
-<br><b>Grafana</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=prometheus" width="48" height="48" alt="Prometheus" />
-<br><b>Prometheus</b>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=electron" width="48" height="48" alt="Electron" />
-<br><b>Electron</b>
-</td>
-</tr>
-</table>
+
+**Languages & Frontend**<br/>
+<img src="https://skillicons.dev/icons?i=ts,js,py,bash,powershell,react,nextjs,vite,tailwind&theme=dark" />
+
+**Backend & Data**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,bun,nestjs,express,prisma,postgres,supabase,redis,mongodb,sqlite&theme=dark" />
+
+**Infra, Testing & Tools**<br/>
+<img src="https://skillicons.dev/icons?i=docker,githubactions,nginx,linux,ubuntu,git,jest,vitest,figma,vscode&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
+<img src="https://img.shields.io/badge/Caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
+<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+
 </div>
 
 </details>
 
-<!-- ══════════════════════ PROJECTS ══════════════════════ -->
+<!-- ══════════════════════ HOW I WORK ══════════════════════ -->
 
 <details open>
-<summary><h2>&#128640; What I'm Building</h2></summary>
+<summary><h2>&#129504; How I Work</h2></summary>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">&#9881;&#65039; HostOnce Platform</h3>
-<div align="center">
+**&#128208; Design the whole thing first.** Data model and architecture get reviewed before any code. One deep, correct system beats a pile of MVPs.
 
-**Multi-Project DevOps Platform**
+**&#129514; Evidence, not claims.** Real exit codes, real test runs, a live check of the running app. Every report says what *wasn't* tested.
 
-Automated Lovable app migration to self-hosted infrastructure. 5-step onboarding wizard, 14-step provisioning pipeline, real-time monitoring, AI-assisted operations.
-
-`React 19` `Hono` `Bun` `Drizzle` `BullMQ` `Redis` `Docker`
-
-<img src="https://skillicons.dev/icons?i=react,ts,redis,postgres,docker,linux&theme=dark" />
-</div>
+**&#9878;&#65039; Many models review, one standard.** Several AI models review every change. Each finding is checked against the actual code before it's accepted or rejected.
 
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center">&#128170; FitMe</h3>
-<div align="center">
+**&#128269; Fix the root cause.** Find the actual cause and fix it at the system level. "It works now" without knowing why is a failure.
 
-**Fitness Coaching Marketplace**
+**&#128683; Real data only.** No mocks, placeholders, or hardcoded fallbacks. An empty state is better than fake data.
 
-Mobile-first platform for booking fitness coaches. Real-time chat, AI content moderation (NVIDIA NIM), video sessions, Stripe payments. Trust and safety built into the data layer.
-
-`Expo SDK 54` `React Native` `Supabase` `Edge Functions` `PostGIS`
-
-<img src="https://skillicons.dev/icons?i=react,ts,supabase,postgres,docker&theme=dark" />
-</div>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="center">&#9200; AtomOS</h3>
-<div align="center">
-
-**Time-Based Venue Operating System**
-
-Full-stack platform for coworking spaces. Session tracking, automated billing engine, subscriptions, cash register, cafeteria POS, inventory, loyalty, analytics, and Telegram integration.
-
-`Next.js 16` `React 19` `Prisma` `TypeScript` `Tailwind` `Docker`
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,prisma,ts,tailwind,docker&theme=dark" />
-</div>
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">&#9729;&#65039; CloudPilot</h3>
-<div align="center">
-
-**Remote Claude Code Workspace**
-
-Self-hosted web + desktop app for accessing Claude Code from any device. Live terminals via WebSocket, project manager, session persistence, and a Windows companion app.
-
-`TypeScript` `Electron` `xterm.js` `WebSocket` `Node.js`
-
-<img src="https://skillicons.dev/icons?i=ts,nodejs,electron,docker,linux&theme=dark" />
-</div>
+**&#128737;&#65039; Guardrails enforced by machines.** CI guards and ratchets can be tightened, never loosened. A tested rollback exists before any risky change.
 
 </td>
 </tr>
 </table>
-
-<details>
-<summary><h3>&#127760; Community Platform &mdash; Multi-Tenant SaaS Backend</h3></summary>
-
-<br/>
-
-<div align="center">
-
-> *Enterprise community management backend &mdash; 20 modules, multi-tenant isolation, full billing and CMS*
-
-</div>
-
-<table>
-<tr>
-<td align="center" width="140"><b>&#128100; Auth</b><br/><sub><code>JWT</code> <code>Passport</code></sub></td>
-<td>Email/password auth with access + refresh tokens, bcrypt hashing, rate limiting</td>
-</tr>
-<tr>
-<td align="center" width="140"><b>&#127970; Tenants</b><br/><sub><code>TypeORM</code></sub></td>
-<td>Multi-tenant isolation &mdash; each community is a fully isolated tenant</td>
-</tr>
-<tr>
-<td align="center" width="140"><b>&#128176; Billing</b><br/><sub><code>Stripe</code></sub></td>
-<td>Subscriptions, invoicing, and payment processing via Stripe</td>
-</tr>
-<tr>
-<td align="center" width="140"><b>&#128218; Courses</b><br/><sub><code>Enrollments</code></sub></td>
-<td>Course catalog, enrollment management, and progress tracking</td>
-</tr>
-<tr>
-<td align="center" width="140"><b>&#128172; Messages</b><br/><sub><code>Notifications</code></sub></td>
-<td>In-app messaging, email notifications via Resend, and event system</td>
-</tr>
-<tr>
-<td align="center" width="140"><b>&#128270; Search</b><br/><sub><code>Analytics</code></sub></td>
-<td>Full-text search, audit logging, and usage analytics</td>
-</tr>
-</table>
-
-<div align="center">
-<br/>
-<img src="https://skillicons.dev/icons?i=nestjs,ts,postgres,redis,docker&theme=dark" />
-</div>
-
-</details>
-
-<details>
-<summary><h3>&#127970; UltaHost &mdash; Production Hosting Infrastructure</h3></summary>
-
-<br/>
-
-<div align="center">
-
-> *Self-hosted production infrastructure serving real customers &mdash; Docker orchestration, CI/CD, monitoring, and self-hosted Supabase*
-
-</div>
-
-<table>
-<tr>
-<td align="center" width="160"><b>&#128187; App Server</b><br/><sub>9 containers</sub></td>
-<td>Production + testing environments, Nginx reverse proxy, Let's Encrypt SSL, kernel-tuned for scale</td>
-</tr>
-<tr>
-<td align="center" width="160"><b>&#128451;&#65039; Database Server</b><br/><sub>27 containers</sub></td>
-<td>Self-hosted Supabase (production + testing stacks), PostgreSQL tuned (5GB shared_buffers), WAL archiving, daily backups</td>
-</tr>
-<tr>
-<td align="center" width="160"><b>&#128202; Monitoring</b><br/><sub>Prometheus + Grafana</sub></td>
-<td>Prometheus metrics, Grafana dashboards, Loki log aggregation, Promtail, node-exporter</td>
-</tr>
-<tr>
-<td align="center" width="160"><b>&#128640; CI/CD</b><br/><sub>GitHub Actions</sub></td>
-<td>SHA-pinned actions, dependency auditing, auto-rollback on failure, manual production gate</td>
-</tr>
-<tr>
-<td align="center" width="160"><b>&#128736;&#65039; DevOps Dashboard</b><br/><sub>React + Hono</sub></td>
-<td>Real-time infrastructure control panel &mdash; 11 pages, 20+ API endpoints, 15 AI-powered operations tools</td>
-</tr>
-</table>
-
-<div align="center">
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,linux,nginx,postgres,supabase,grafana,prometheus,githubactions&theme=dark" />
-</div>
-
-</details>
 
 </details>
 
 <!-- ══════════════════════ STATS ══════════════════════ -->
 
 <details open>
-<summary><h2>&#128200; GitHub Analytics</h2></summary>
+<summary><h2>&#128200; GitHub Activity</h2></summary>
 
 <div align="center">
 
-<a href="https://github.com/ziadmomen10">
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ziadmomen10&theme=github-dark-blue&background=0d1117&border=161b22&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
-</a>
-<a href="https://github.com/ziadmomen10">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ziadmomen10&show_icons=true&bg_color=0d1117&border_color=161b22&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true&hide_border=false&hide=contribs" />
-</a>
+<img height="170em" src="https://streak-stats.demolab.com/?user=ziadmomen10&theme=github-dark-blue&background=0d1117&border=161b22&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="Streak stats" />
 
-</div>
+<br/><br/>
 
-<br/>
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=ziadmomen10&theme=darkhub&no-frame=true&no-bg=true&column=-1&margin-w=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ziadmomen10&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ffffff&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Timeline" />
-</div>
-
-<br/>
-
-<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/output/github-snake-dark.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/output/github-snake-dark.svg" />
 </picture>
-</div>
-
-</details>
-
-<!-- ══════════════════════ PHILOSOPHY ══════════════════════ -->
-
-<details>
-<summary><h2>&#129504; How I Work</h2></summary>
-
-<br/>
-
-<div align="center">
-
-```
-                    +-----------------------------------------+
-                    |       P R I N C I P L E S               |
-                    +-----------------------------------------+
-                    |                                         |
-                    |   DESIGN FIRST                          |
-                    |   +-- Architect before coding           |
-                    |   +-- Data model drives everything      |
-                    |   +-- Align on the plan, then execute   |
-                    |                                         |
-                    |   REAL DATA ONLY                        |
-                    |   +-- No mocks, no placeholders         |
-                    |   +-- Empty state over fake state       |
-                    |   +-- Every value from a real source    |
-                    |                                         |
-                    |   SHIP COMPLETE                         |
-                    |   +-- Web     --> React / Next.js       |
-                    |   +-- Mobile  --> Expo / React Native   |
-                    |   +-- Backend --> Hono / NestJS / Bun   |
-                    |   +-- Infra   --> Docker + CI/CD        |
-                    |                                         |
-                    |   AI AS INFRASTRUCTURE                  |
-                    |   +-- Claude Code for development       |
-                    |   +-- LLM agents for operations         |
-                    |   +-- AI moderation in production       |
-                    |                                         |
-                    +-----------------------------------------+
-```
 
 </div>
 
@@ -416,14 +286,12 @@ Self-hosted web + desktop app for accessing Claude Code from any device. Live te
 
 <div align="center">
 
-<a href="https://github.com/ziadmomen10"><img src="https://custom-icon-badges.demolab.com/badge/GitHub-ziadmomen10-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" /></a>&nbsp;&nbsp;
+<a href="https://github.com/ziadmomen10/zaude"><img src="https://custom-icon-badges.demolab.com/badge/Try-Zaude-58a6ff?style=for-the-badge&logo=rocket&logoColor=white&labelColor=161b22" /></a>&nbsp;&nbsp;
 <a href="mailto:ziadmomen10@gmail.com"><img src="https://custom-icon-badges.demolab.com/badge/Gmail-ziadmomen10-EA4335?style=for-the-badge&logo=mail&logoColor=white&labelColor=161b22" /></a>
 
 <br/><br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote" />
-
-<br/>
+<sub><i>Private work is described at a high level. Numbers come from real CI runs and project logs.</i></sub>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,10:161b22,30:1f6feb,50:58a6ff,70:1f6feb,90:161b22,100:0d1117&height=120&section=footer" />
 
