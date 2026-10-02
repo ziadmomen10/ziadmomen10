@@ -9,7 +9,34 @@ MONO = "ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospac
 SANS = "'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif"
 C = dict(bg="#0d1117", panel="#161b22", border="#30363d", text="#c9d1d9", dim="#8b949e",
          blue="#58a6ff", blue2="#1f6feb", green="#3fb950", purple="#a371f7",
-         yellow="#d29922", pink="#f778ba", orange="#ffa657")
+         yellow="#d29922", pink="#f778ba", orange="#ffa657",
+         title="#ffffff", glow="#fefefe", hero_bg="#070a10", violet="#7c3aed", lilac="#d2b8ff", teal="#0e7490",
+         mode="dark", pad=0, wave_k=1.0)
+DARK = dict(C)
+# Light is a designed theme, not an inversion: white cards that lift off a faintly tinted page with
+# accent-coloured soft shadows, deep saturated accents, slate text, a vivid pastel hero.
+LIGHT = dict(bg="#f8faff", panel="#ffffff", border="#e2e8f0", text="#334155", dim="#64748b",
+             blue="#4f46e5", blue2="#818cf8", green="#059669", purple="#7c3aed",
+             yellow="#ca8a04", pink="#db2777", orange="#ea580c",
+             title="#0f172a", glow="#6366f1", hero_bg="#eef2ff", violet="#a855f7", lilac="#9333ea", teal="#22d3ee",
+             mode="light", pad=14, wave_k=2.2)
+
+
+def set_theme(name):
+    C.clear()
+    C.update(DARK if name == "dark" else LIGHT)
+
+
+def shadow(fid, color, dy=8, blur=10, op=.18):
+    """Soft coloured drop shadow (light theme only)."""
+    if C["mode"] != "light":
+        return ""
+    return (f'<filter id="{fid}" x="-15%" y="-15%" width="130%" height="155%">'
+            f'<feDropShadow dx="0" dy="{dy}" stdDeviation="{blur}" flood-color="{color}" flood-opacity="{op}"/></filter>')
+
+
+def lift(fid):
+    return f' filter="url(#{fid})"' if C["mode"] == "light" else ""
 
 
 def pct(t, T):
@@ -173,7 +200,7 @@ def pipeline():
 <filter id="blur"><feGaussianBlur stdDeviation="4"/></filter>
 </defs>
 <style>
-.t{{font-family:{SANS};font-size:15px;font-weight:700;letter-spacing:2px;fill:#ffffff}}
+.t{{font-family:{SANS};font-size:15px;font-weight:700;letter-spacing:2px;fill:{C["title"]}}}
 .s{{font-family:{SANS};font-size:12.5px;fill:{C["dim"]}}}
 .num{{font-family:{MONO};font-size:20px;font-weight:700}}
 .ring{{opacity:0;animation:ring {T}s ease-out infinite}}
@@ -201,25 +228,26 @@ def ultahost():
              ("23", "repositories", "products & internal tools"),
              ("6,085", "CI tests", "in one grouped lane"),
              ("129", "API operations", "OpenAPI with drift gates")]
-    tw, gap = 205, 20
+    P, gap = C["pad"], 20
+    tw = (W - 2 * P - 3 * gap) / 4
     parts = []
     for i, (big, label, sub) in enumerate(tiles):
         x = i * (tw + gap)
         d = .25 + i * .25
         parts.append(f'''
 <g class="tile" style="animation-delay:{d:.2f}s">
-  <rect x="{x + .5}" y=".5" width="{tw - 1}" height="{H - 1}" rx="12" fill="{C["panel"]}" stroke="{C["border"]}"/>
+  <rect x="{x + .5}" y=".5" width="{tw - 1}" height="{H - 1}" rx="12" fill="{C["panel"]}" stroke="{C["border"]}"{lift("sd")}/>
   <rect x="{x + 1}" y="1" width="{tw - 2}" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
   <text x="{x + 20}" y="66" class="big">{escape(big)}</text>
   <text x="{x + 20}" y="96" class="lab">{escape(label)}</text>
   <text x="{x + 20}" y="120" class="sub">{escape(sub)}</text>
   <circle cx="{x + tw - 24}" cy="28" r="5" fill="{C["purple"]}" class="dot" style="animation-delay:{d:.2f}s"/>
 </g>''')
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="UltaHost footprint: 1,750+ commits, 23 repositories, 6,085 CI tests, 129 API operations">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H + 2 * P}" viewBox="0 0 {W} {H + 2 * P}" role="img" aria-label="UltaHost footprint: 1,750+ commits, 23 repositories, 6,085 CI tests, 129 API operations">
 <defs>
-<linearGradient id="pu" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".5" stop-color="{C["purple"]}"/><stop offset="1" stop-color="{C["blue"]}"/>
+{shadow("sd", C["purple"])}<linearGradient id="pu" x1="0" x2="1"><stop offset="0" stop-color="{C["violet"]}"/><stop offset=".5" stop-color="{C["purple"]}"/><stop offset="1" stop-color="{C["blue"]}"/>
 <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="3s" repeatCount="indefinite"/></linearGradient>
-<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d2b8ff"/></linearGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="{C["title"]}"/><stop offset="1" stop-color="{C["lilac"]}"/></linearGradient>
 </defs>
 <style>
 .big{{font-family:{SANS};font-size:38px;font-weight:800;fill:url(#tx)}}
@@ -229,7 +257,7 @@ def ultahost():
 @keyframes up{{from{{opacity:0;transform:translateY(14px)}}to{{opacity:1;transform:translateY(0)}}}}
 .dot{{animation:pulse 2.4s ease-in-out infinite}}@keyframes pulse{{50%{{opacity:.25}}}}
 </style>
-{"".join(parts)}
+<g transform="translate({P} {P})">{"".join(parts)}</g>
 </svg>'''
     (OUT / "ultahost-stats.svg").write_text(svg, encoding="utf-8")
 
@@ -239,7 +267,7 @@ def divider():
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="14" viewBox="0 0 1000 14" preserveAspectRatio="none" role="img" aria-label="">
 <defs>
 <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="{C["blue2"]}" stop-opacity="0"/><stop offset=".5" stop-color="{C["blue"]}"/><stop offset="1" stop-color="{C["purple"]}" stop-opacity="0"/></linearGradient>
-<radialGradient id="r"><stop offset="0" stop-color="#fefefe"/><stop offset=".4" stop-color="{C["blue"]}"/><stop offset="1" stop-color="{C["blue"]}" stop-opacity="0"/></radialGradient>
+<radialGradient id="r"><stop offset="0" stop-color="{C["glow"]}"/><stop offset=".4" stop-color="{C["blue"]}"/><stop offset="1" stop-color="{C["blue"]}" stop-opacity="0"/></radialGradient>
 </defs>
 <rect x="0" y="6" width="1000" height="2" fill="url(#g)"/>
 <ellipse cy="7" rx="60" ry="6" fill="url(#r)"><animate attributeName="cx" values="-60;1060" dur="4s" repeatCount="indefinite"/></ellipse>

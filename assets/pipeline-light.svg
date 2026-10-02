@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="205" viewBox="0 0 880 205" role="img" aria-label="How I ship: design, build, 5-model review, verify, ship">
 <defs>
-<linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="850" y2="0"><stop offset="0" stop-color="#0969da"/><stop offset=".5" stop-color="#bc4c00"/><stop offset="1" stop-color="#1a7f37"/></linearGradient>
+<linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="850" y2="0"><stop offset="0" stop-color="#4f46e5"/><stop offset=".5" stop-color="#ea580c"/><stop offset="1" stop-color="#059669"/></linearGradient>
 <filter id="blur"><feGaussianBlur stdDeviation="4"/></filter>
 </defs>
 <style>
-.t{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;fill:#1f2328}
-.s{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:12.5px;fill:#59636e}
+.t{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;fill:#0f172a}
+.s{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:12.5px;fill:#64748b}
 .num{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace;font-size:20px;font-weight:700}
 .ring{opacity:0;animation:ring 6.0s ease-out infinite}
 @keyframes ring{0%{opacity:.9;transform:scale(1)}22%{opacity:0;transform:scale(1.45)}100%{opacity:0}}
@@ -13,52 +13,52 @@
 @keyframes lit{0%{opacity:.35}25%{opacity:.06}100%{opacity:.06}}
 .flow{stroke-dasharray:6 10;animation:flow 1.2s linear infinite}@keyframes flow{to{stroke-dashoffset:-16}}
 </style>
-<rect width="880" height="205" rx="14" fill="#ffffff"/>
-<rect x=".5" y=".5" width="879" height="204" rx="14" fill="none" stroke="#d0d7de"/>
+<rect width="880" height="205" rx="14" fill="#f8faff"/>
+<rect x=".5" y=".5" width="879" height="204" rx="14" fill="none" stroke="#e2e8f0"/>
 <path d="M30,78 L850,78" stroke="url(#ln)" stroke-width="3" opacity=".35"/>
 <path d="M30,78 L850,78" stroke="url(#ln)" stroke-width="2" class="flow"/>
-<g filter="url(#blur)"><circle r="7" fill="#0969da" opacity="1"><animateMotion dur="6.0s" begin="-0s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="5" fill="#0969da" opacity="0.55"><animateMotion dur="6.0s" begin="-0.09s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="3.5" fill="#0969da" opacity="0.3"><animateMotion dur="6.0s" begin="-0.18s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle></g>
-<circle r="7" fill="#0969da" opacity="1"><animateMotion dur="6.0s" begin="-0s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="5" fill="#0969da" opacity="0.55"><animateMotion dur="6.0s" begin="-0.09s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="3.5" fill="#0969da" opacity="0.3"><animateMotion dur="6.0s" begin="-0.18s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle>
+<g filter="url(#blur)"><circle r="7" fill="#4f46e5" opacity="1"><animateMotion dur="6.0s" begin="-0s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="5" fill="#4f46e5" opacity="0.55"><animateMotion dur="6.0s" begin="-0.09s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="3.5" fill="#4f46e5" opacity="0.3"><animateMotion dur="6.0s" begin="-0.18s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle></g>
+<circle r="7" fill="#4f46e5" opacity="1"><animateMotion dur="6.0s" begin="-0s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="5" fill="#4f46e5" opacity="0.55"><animateMotion dur="6.0s" begin="-0.09s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="3.5" fill="#4f46e5" opacity="0.3"><animateMotion dur="6.0s" begin="-0.18s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle>
 
 <g>
-  <circle cx="100" cy="78" r="34" fill="none" stroke="#0969da" stroke-width="2" class="ring" style="animation-delay:0.51s;transform-origin:100px 78px"/>
-  <circle cx="100" cy="78" r="34" fill="#f6f8fa" stroke="#0969da" stroke-width="2"/>
-  <circle cx="100" cy="78" r="34" fill="#0969da" class="lit" style="animation-delay:0.51s"/>
-  <text x="100" y="85" text-anchor="middle" class="num" fill="#0969da">01</text>
+  <circle cx="100" cy="78" r="34" fill="none" stroke="#4f46e5" stroke-width="2" class="ring" style="animation-delay:0.51s;transform-origin:100px 78px"/>
+  <circle cx="100" cy="78" r="34" fill="#ffffff" stroke="#4f46e5" stroke-width="2"/>
+  <circle cx="100" cy="78" r="34" fill="#4f46e5" class="lit" style="animation-delay:0.51s"/>
+  <text x="100" y="85" text-anchor="middle" class="num" fill="#4f46e5">01</text>
   <text x="100" y="144" text-anchor="middle" class="t">DESIGN</text>
   <text x="100" y="166" text-anchor="middle" class="s">whole system first</text>
 </g>
 <g>
-  <circle cx="270" cy="78" r="34" fill="none" stroke="#8250df" stroke-width="2" class="ring" style="animation-delay:1.76s;transform-origin:270px 78px"/>
-  <circle cx="270" cy="78" r="34" fill="#f6f8fa" stroke="#8250df" stroke-width="2"/>
-  <circle cx="270" cy="78" r="34" fill="#8250df" class="lit" style="animation-delay:1.76s"/>
-  <text x="270" y="85" text-anchor="middle" class="num" fill="#8250df">02</text>
+  <circle cx="270" cy="78" r="34" fill="none" stroke="#7c3aed" stroke-width="2" class="ring" style="animation-delay:1.76s;transform-origin:270px 78px"/>
+  <circle cx="270" cy="78" r="34" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+  <circle cx="270" cy="78" r="34" fill="#7c3aed" class="lit" style="animation-delay:1.76s"/>
+  <text x="270" y="85" text-anchor="middle" class="num" fill="#7c3aed">02</text>
   <text x="270" y="144" text-anchor="middle" class="t">BUILD</text>
   <text x="270" y="166" text-anchor="middle" class="s">agents implement</text>
 </g>
 <g>
-  <circle cx="440" cy="78" r="34" fill="none" stroke="#bc4c00" stroke-width="2" class="ring" style="animation-delay:3.00s;transform-origin:440px 78px"/>
-  <circle cx="440" cy="78" r="34" fill="#f6f8fa" stroke="#bc4c00" stroke-width="2"/>
-  <circle cx="440" cy="78" r="34" fill="#bc4c00" class="lit" style="animation-delay:3.00s"/>
-  <text x="440" y="85" text-anchor="middle" class="num" fill="#bc4c00">03</text>
+  <circle cx="440" cy="78" r="34" fill="none" stroke="#ea580c" stroke-width="2" class="ring" style="animation-delay:3.00s;transform-origin:440px 78px"/>
+  <circle cx="440" cy="78" r="34" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <circle cx="440" cy="78" r="34" fill="#ea580c" class="lit" style="animation-delay:3.00s"/>
+  <text x="440" y="85" text-anchor="middle" class="num" fill="#ea580c">03</text>
   <text x="440" y="144" text-anchor="middle" class="t">REVIEW</text>
   <text x="440" y="166" text-anchor="middle" class="s">5 models · 0C / 0H</text>
 </g>
 <g>
-  <circle cx="610" cy="78" r="34" fill="none" stroke="#bf3989" stroke-width="2" class="ring" style="animation-delay:4.24s;transform-origin:610px 78px"/>
-  <circle cx="610" cy="78" r="34" fill="#f6f8fa" stroke="#bf3989" stroke-width="2"/>
-  <circle cx="610" cy="78" r="34" fill="#bf3989" class="lit" style="animation-delay:4.24s"/>
-  <text x="610" y="85" text-anchor="middle" class="num" fill="#bf3989">04</text>
+  <circle cx="610" cy="78" r="34" fill="none" stroke="#db2777" stroke-width="2" class="ring" style="animation-delay:4.24s;transform-origin:610px 78px"/>
+  <circle cx="610" cy="78" r="34" fill="#ffffff" stroke="#db2777" stroke-width="2"/>
+  <circle cx="610" cy="78" r="34" fill="#db2777" class="lit" style="animation-delay:4.24s"/>
+  <text x="610" y="85" text-anchor="middle" class="num" fill="#db2777">04</text>
   <text x="610" y="144" text-anchor="middle" class="t">VERIFY</text>
   <text x="610" y="166" text-anchor="middle" class="s">real exit + live check</text>
 </g>
 <g>
-  <circle cx="780" cy="78" r="34" fill="none" stroke="#1a7f37" stroke-width="2" class="ring" style="animation-delay:5.49s;transform-origin:780px 78px"/>
-  <circle cx="780" cy="78" r="34" fill="#f6f8fa" stroke="#1a7f37" stroke-width="2"/>
-  <circle cx="780" cy="78" r="34" fill="#1a7f37" class="lit" style="animation-delay:5.49s"/>
-  <text x="780" y="85" text-anchor="middle" class="num" fill="#1a7f37">05</text>
+  <circle cx="780" cy="78" r="34" fill="none" stroke="#059669" stroke-width="2" class="ring" style="animation-delay:5.49s;transform-origin:780px 78px"/>
+  <circle cx="780" cy="78" r="34" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <circle cx="780" cy="78" r="34" fill="#059669" class="lit" style="animation-delay:5.49s"/>
+  <text x="780" y="85" text-anchor="middle" class="num" fill="#059669">05</text>
   <text x="780" y="144" text-anchor="middle" class="t">SHIP</text>
   <text x="780" y="166" text-anchor="middle" class="s">signed · with evidence</text>
 </g>
-<g><circle cx="488" cy="78" r="4" fill="#bc4c00" transform="rotate(0 440 78)"/><circle cx="488" cy="78" r="4" fill="#1f2328" transform="rotate(72 440 78)"/><circle cx="488" cy="78" r="4" fill="#0969da" transform="rotate(144 440 78)"/><circle cx="488" cy="78" r="4" fill="#8250df" transform="rotate(216 440 78)"/><circle cx="488" cy="78" r="4" fill="#bf3989" transform="rotate(288 440 78)"/><animateTransform attributeName="transform" type="rotate" from="0 440 78" to="360 440 78" dur="8s" repeatCount="indefinite"/></g>
+<g><circle cx="488" cy="78" r="4" fill="#ea580c" transform="rotate(0 440 78)"/><circle cx="488" cy="78" r="4" fill="#334155" transform="rotate(72 440 78)"/><circle cx="488" cy="78" r="4" fill="#4f46e5" transform="rotate(144 440 78)"/><circle cx="488" cy="78" r="4" fill="#7c3aed" transform="rotate(216 440 78)"/><circle cx="488" cy="78" r="4" fill="#db2777" transform="rotate(288 440 78)"/><animateTransform attributeName="transform" type="rotate" from="0 440 78" to="360 440 78" dur="8s" repeatCount="indefinite"/></g>
 </svg>

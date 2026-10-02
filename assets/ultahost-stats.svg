@@ -12,37 +12,37 @@
 @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 .dot{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}
 </style>
-
+<g transform="translate(0 0)">
 <g class="tile" style="animation-delay:0.25s">
-  <rect x="0.5" y=".5" width="204" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
-  <rect x="1" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
-  <text x="20" y="66" class="big">1,750+</text>
-  <text x="20" y="96" class="lab">commits</text>
-  <text x="20" y="120" class="sub">across the Ulta-Host org</text>
-  <circle cx="181" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:0.25s"/>
+  <rect x="0.5" y=".5" width="204.0" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
+  <rect x="1.0" y="1" width="203.0" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="20.0" y="66" class="big">1,750+</text>
+  <text x="20.0" y="96" class="lab">commits</text>
+  <text x="20.0" y="120" class="sub">across the Ulta-Host org</text>
+  <circle cx="181.0" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:0.25s"/>
 </g>
 <g class="tile" style="animation-delay:0.50s">
-  <rect x="225.5" y=".5" width="204" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
-  <rect x="226" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
-  <text x="245" y="66" class="big">23</text>
-  <text x="245" y="96" class="lab">repositories</text>
-  <text x="245" y="120" class="sub">products &amp; internal tools</text>
-  <circle cx="406" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:0.50s"/>
+  <rect x="225.5" y=".5" width="204.0" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
+  <rect x="226.0" y="1" width="203.0" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="245.0" y="66" class="big">23</text>
+  <text x="245.0" y="96" class="lab">repositories</text>
+  <text x="245.0" y="120" class="sub">products &amp; internal tools</text>
+  <circle cx="406.0" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:0.50s"/>
 </g>
 <g class="tile" style="animation-delay:0.75s">
-  <rect x="450.5" y=".5" width="204" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
-  <rect x="451" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
-  <text x="470" y="66" class="big">6,085</text>
-  <text x="470" y="96" class="lab">CI tests</text>
-  <text x="470" y="120" class="sub">in one grouped lane</text>
-  <circle cx="631" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:0.75s"/>
+  <rect x="450.5" y=".5" width="204.0" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
+  <rect x="451.0" y="1" width="203.0" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="470.0" y="66" class="big">6,085</text>
+  <text x="470.0" y="96" class="lab">CI tests</text>
+  <text x="470.0" y="120" class="sub">in one grouped lane</text>
+  <circle cx="631.0" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:0.75s"/>
 </g>
 <g class="tile" style="animation-delay:1.00s">
-  <rect x="675.5" y=".5" width="204" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
-  <rect x="676" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
-  <text x="695" y="66" class="big">129</text>
-  <text x="695" y="96" class="lab">API operations</text>
-  <text x="695" y="120" class="sub">OpenAPI with drift gates</text>
-  <circle cx="856" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:1.00s"/>
-</g>
+  <rect x="675.5" y=".5" width="204.0" height="149" rx="12" fill="#161b22" stroke="#30363d"/>
+  <rect x="676.0" y="1" width="203.0" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="695.0" y="66" class="big">129</text>
+  <text x="695.0" y="96" class="lab">API operations</text>
+  <text x="695.0" y="120" class="sub">OpenAPI with drift gates</text>
+  <circle cx="856.0" cy="28" r="5" fill="#a371f7" class="dot" style="animation-delay:1.00s"/>
+</g></g>
 </svg>

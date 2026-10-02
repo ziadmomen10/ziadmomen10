@@ -7,7 +7,7 @@ import textwrap
 from html import escape
 from pathlib import Path
 
-from _generate import C, MONO, SANS, OUT  # shared palette + fonts
+from _generate import C, MONO, SANS, OUT, shadow, lift  # shared palette + fonts + light-theme lift
 
 W = 880
 
@@ -27,7 +27,7 @@ def sweep_rect(x, y, w, h, rx, grad, delay=0.0, dur=6.0, width=1.6):
 def grads():
     return (f'<linearGradient id="gb" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{C["blue"]}"/>'
             f'<stop offset="1" stop-color="{C["purple"]}"/></linearGradient>'
-            f'<linearGradient id="gp" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#7c3aed"/>'
+            f'<linearGradient id="gp" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{C["violet"]}"/>'
             f'<stop offset="1" stop-color="{C["pink"]}"/></linearGradient>'
             f'<linearGradient id="gg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{C["green"]}"/>'
             f'<stop offset="1" stop-color="{C["blue"]}"/></linearGradient>'
@@ -60,7 +60,7 @@ def hero():
         x, y = rnd.uniform(20, Wh - 20), rnd.uniform(14, hz - 10)
         r = rnd.choice([0.8, 1.1, 1.5, 2])
         d = rnd.uniform(2, 6)
-        col = rnd.choice([C["blue"], "#fefefe", C["purple"], "#fefefe"])
+        col = rnd.choice([C["blue"], C["glow"], C["purple"], C["glow"]])
         parts.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{col}">'
                      f'<animate attributeName="opacity" values="0;1;0" dur="{d:.1f}s" begin="{-rnd.uniform(0, d):.1f}s" repeatCount="indefinite"/>'
                      f'<animate attributeName="cy" values="{y:.0f};{y - 18:.0f}" dur="{d * 2:.1f}s" repeatCount="indefinite"/></circle>')
@@ -68,8 +68,8 @@ def hero():
         f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{col}" opacity=".55">'
         f'<animate attributeName="cx" values="{cx};{cx + dx};{cx}" dur="{d}s" repeatCount="indefinite"/>'
         f'<animate attributeName="cy" values="{cy};{cy + dy};{cy}" dur="{d * 1.3:.1f}s" repeatCount="indefinite"/></circle>'
-        for cx, cy, r, col, dx, dy, d in [(260, 120, 170, C["blue2"], 120, 40, 14), (900, 110, 190, "#7c3aed", -140, 50, 17),
-                                          (600, 260, 150, "#0e7490", 80, -40, 12)])
+        for cx, cy, r, col, dx, dy, d in [(260, 120, 170, C["blue2"], 120, 40, 14), (900, 110, 190, C["violet"], -140, 50, 17),
+                                          (600, 260, 150, C["teal"], 80, -40, 12)])
     chips = [(t, c, len(t) * 8.6 + 44) for t, c in [("   shipping at UltaHost", C["green"]), ("Zaude™ · open source", C["blue"]), ("Egypt", C["purple"])]]
     total = sum(w for *_, w in chips) + 16 * (len(chips) - 1)
     cx = (Wh - total) / 2
@@ -90,7 +90,7 @@ def hero():
 <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
 <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <linearGradient id="name" x1="0" x2="1" gradientUnits="objectBoundingBox">
-<stop offset="0" stop-color="#ffffff"/><stop offset=".3" stop-color="{C["blue"]}"/><stop offset=".55" stop-color="#d2b8ff"/><stop offset=".8" stop-color="{C["blue"]}"/><stop offset="1" stop-color="#ffffff"/>
+<stop offset="0" stop-color="{C["title"]}"/><stop offset=".3" stop-color="{C["blue"]}"/><stop offset=".55" stop-color="{C["lilac"]}"/><stop offset=".8" stop-color="{C["blue"]}"/><stop offset="1" stop-color="{C["title"]}"/>
 <animateTransform attributeName="gradientTransform" type="translate" values="-.5 0;.5 0;-.5 0" dur="8s" repeatCount="indefinite"/></linearGradient>
 <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset=".25" stop-color="#fff"/></linearGradient>
 <mask id="fm"><rect y="{hz}" width="{Wh}" height="{Hh - hz}" fill="url(#fade)"/></mask>
@@ -105,7 +105,7 @@ def hero():
 @keyframes in{{from{{opacity:0;transform:translateY(16px)}}to{{opacity:1;transform:none}}}}
 </style>
 <g clip-path="url(#cl)">
-<rect width="{Wh}" height="{Hh}" fill="#070a10"/>
+<rect width="{Wh}" height="{Hh}" fill="{C["hero_bg"]}"/>
 <g filter="url(#blur)">{blobs}</g>
 <g mask="url(#fm)" stroke="{C["blue"]}" stroke-opacity=".35" stroke-width="1">{"".join(grid)}</g>
 <g mask="url(#fm)" stroke="{C["blue"]}" stroke-width="1.2">{"".join(hl)}</g>
@@ -117,7 +117,7 @@ def hero():
 <circle cx="180" cy="130" r="4" fill="{C["blue"]}" stroke="none"><animateTransform attributeName="transform" type="rotate" from="0 110 130" to="360 110 130" dur="10s" repeatCount="indefinite"/></circle>
 <circle cx="1146" cy="130" r="3.5" fill="{C["purple"]}" stroke="none"><animateTransform attributeName="transform" type="rotate" from="360 1090 130" to="0 1090 130" dur="8s" repeatCount="indefinite"/></circle>
 </g>
-<g class="in" style="animation-delay:.2s"><text x="{Wh / 2}" y="140" text-anchor="middle" class="name" fill="url(#name)" filter="url(#glow)">Ziad Momen</text></g>
+<g class="in" style="animation-delay:.2s"><text x="{Wh / 2}" y="140" text-anchor="middle" class="name" fill="url(#name)"{' filter="url(#glow)"' if C["mode"] == "dark" else ''}>Ziad Momen</text></g>
 <g class="in" style="animation-delay:.7s"><text x="{Wh / 2}" y="196" text-anchor="middle" class="sub">DIRECTOR OF PRODUCT &amp; ENGINEERING · ULTAHOST · CREATOR OF ZAUDE™</text></g>
 {"".join(chip_svg)}
 </g>
@@ -195,17 +195,18 @@ text{{font-family:{MONO};font-size:13.5px;white-space:pre}}
 # ─────────────────────────────── generic card grid ───────────────────────────────
 def card_grid(name, label, cards, cols, card_h, icon_fn=None, gap=18, title_size=17):
     """cards: dicts(title, body, accent, grad, [kicker], [status], [metric], [chips], [icon])"""
-    cw = (W - gap * (cols - 1)) / cols
+    P = C["pad"]
+    cw = (W - 2 * P - gap * (cols - 1)) / cols
     rows_n = (len(cards) + cols - 1) // cols
-    Hh = rows_n * card_h + (rows_n - 1) * gap + 2
+    Hh = rows_n * card_h + (rows_n - 1) * gap + 2 + 2 * P + (8 if P else 0)
     out = []
     for i, c in enumerate(cards):
         r, k = divmod(i, cols)
-        x, y = k * (cw + gap) + 1, r * (card_h + gap) + 1
+        x, y = P + k * (cw + gap) + 1, P + r * (card_h + gap) + 1
         d = .15 + i * .14
         acc = c["accent"]
         g = [f'<g class="card" style="animation-delay:{d:.2f}s">',
-             f'<rect x="{x}" y="{y}" width="{cw - 2}" height="{card_h - 2}" rx="14" fill="{C["panel"]}" stroke="{C["border"]}"/>',
+             f'<rect x="{x}" y="{y}" width="{cw - 2}" height="{card_h - 2}" rx="14" fill="{C["panel"]}" stroke="{acc if C["mode"] == "light" else C["border"]}" stroke-opacity="{.3 if C["mode"] == "light" else 1}"{lift(f"sd{i}")}/>',
              f'<rect x="{x}" y="{y}" width="{cw - 2}" height="{card_h - 2}" rx="14" fill="url(#sh{i})"/>',
              sweep_rect(x, y, cw - 2, card_h - 2, 14, c["grad"], delay=i * 1.3, dur=7)]
         cy = y + 34
@@ -246,11 +247,11 @@ def card_grid(name, label, cards, cols, card_h, icon_fn=None, gap=18, title_size
         out.append("".join(g))
     shades = "".join(
         f'<radialGradient id="sh{i}" cx="0" cy="0" r="1"><stop offset="0" stop-color="{c["accent"]}" stop-opacity=".14"/>'
-        f'<stop offset=".6" stop-color="{c["accent"]}" stop-opacity="0"/></radialGradient>' for i, c in enumerate(cards))
+        f'<stop offset=".6" stop-color="{c["accent"]}" stop-opacity="0"/></radialGradient>{shadow(f"sd{i}", c["accent"])}' for i, c in enumerate(cards))
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{Hh}" viewBox="0 0 {W} {Hh}" role="img" aria-label="{escape(label)}">
 <defs>{grads()}{shades}</defs>
 <style>
-.tt{{font-family:{SANS};font-weight:700;fill:#ffffff}}
+.tt{{font-family:{SANS};font-weight:700;fill:{C["title"]}}}
 .bd{{font-family:{SANS};font-size:13px;fill:{C["text"]}}}
 .mt{{font-family:{SANS};font-size:13px;font-weight:700}}
 .kick{{font-family:{MONO};font-size:11.5px;letter-spacing:1.5px;font-weight:700}}
@@ -460,16 +461,16 @@ def footer():
 
     waves = []
     for amp, length, y, col, op, dur, rev in [(16, 600, 168, C["blue2"], .16, 14, False),
-                                              (20, 400, 184, "#7c3aed", .16, 10, True),
+                                              (20, 400, 184, C["violet"], .16, 10, True),
                                               (12, 300, 204, C["blue"], .22, 7, False)]:
         frm, to = ("0", f"-{length}") if not rev else (f"-{length}", "0")
-        waves.append(f'<path d="{wave(amp, length, y, n=int(Wf / length) + 2)}" fill="{col}" fill-opacity="{op}">'
+        waves.append(f'<path d="{wave(amp, length, y, n=int(Wf / length) + 2)}" fill="{col}" fill-opacity="{op * C["wave_k"]:.2f}">'
                      f'<animateTransform attributeName="transform" type="translate" from="{frm} 0" to="{to} 0" dur="{dur}s" repeatCount="indefinite"/></path>')
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{Wf}" height="{Hf}" viewBox="0 0 {Wf} {Hf}" role="img" aria-label="Don't vibe code. Zaude code.">
 <defs>
-<linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="{C["blue"]}"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="{C["purple"]}"/>
+<linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="{C["blue"]}"/><stop offset=".5" stop-color="{C["title"]}"/><stop offset="1" stop-color="{C["purple"]}"/>
 <animateTransform attributeName="gradientTransform" type="translate" values="-.6 0;.6 0;-.6 0" dur="7s" repeatCount="indefinite"/></linearGradient>
-<linearGradient id="bgf" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="{C["bg"]}" stop-opacity="0"/><stop offset="1" stop-color="#070a10"/></linearGradient>
+<linearGradient id="bgf" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="{C["bg"]}" stop-opacity="0"/><stop offset="1" stop-color="{C["hero_bg"]}"/></linearGradient>
 </defs>
 <style>
 .q{{font-family:{SANS};font-size:40px;font-weight:800;letter-spacing:-.5px}}
