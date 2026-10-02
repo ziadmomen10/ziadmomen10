@@ -53,6 +53,60 @@ quality:    [Playwright, Jest, Vitest, OpenAPI drift gates, CI ratchets]
 
 </details>
 
+<!-- ══════════════════════ ULTAHOST ══════════════════════ -->
+
+<details open>
+<summary><h2>&#127970; At UltaHost</h2></summary>
+
+<table>
+<tr>
+<td width="160" align="center" valign="middle">
+<a href="https://github.com/Ulta-Host"><img src="https://github.com/Ulta-Host.png?size=200" width="120" alt="UltaHost" /></a>
+<br/><b><a href="https://ultahost.com">UltaHost</a></b>
+<br/><sub>Org admin · Product Owner</sub>
+</td>
+<td valign="top">
+
+I own product and platform work across UltaHost's engineering org. I write the spec, design the architecture, ship to production, and keep it running. Most of the code is private, so here is what's behind it:
+
+<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/commits-1%2C750%2B-58a6ff?style=for-the-badge&labelColor=161b22" /></a>
+<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/repositories-23-58a6ff?style=for-the-badge&labelColor=161b22" /></a>
+<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/CI_tests-6%2C000%2B-10b981?style=for-the-badge&labelColor=161b22" /></a>
+<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/role-org_admin-8b949e?style=for-the-badge&labelColor=161b22" /></a>
+
+<sub>Counted from default branches of the Ulta-Host org repos, October 2026.</sub>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="25%" valign="top">
+<h3>&#129302;</h3>
+<b>AI Hosting Assistant</b><br/>
+<sub>Chat-driven server management that plans, authorizes, runs, and verifies work on real customer servers</sub>
+</td>
+<td align="center" width="25%" valign="top">
+<h3>&#9729;&#65039;</h3>
+<b>Hosting Platform</b><br/>
+<sub>Moves apps onto self-hosted Supabase, with provisioning, data sync, and production review gates</sub>
+</td>
+<td align="center" width="25%" valign="top">
+<h3>&#128736;&#65039;</h3>
+<b>DevOps &amp; Monitoring</b><br/>
+<sub>Infrastructure control panel, CI/CD with auto-rollback, and Prometheus + Grafana observability</sub>
+</td>
+<td align="center" width="25%" valign="top">
+<h3>&#128101;</h3>
+<b>Internal Business Tools</b><br/>
+<sub>HR, marketing, referral, and offer-generation apps used by UltaHost teams</sub>
+</td>
+</tr>
+</table>
+
+</details>
+
 <!-- ══════════════════════ FLAGSHIP ══════════════════════ -->
 
 <details open>
