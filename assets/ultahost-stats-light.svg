@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="150" viewBox="0 0 880 150" role="img" aria-label="UltaHost footprint: 1,750+ commits, 23 repositories, 6,085 CI tests, 129 API operations">
+<defs>
+<linearGradient id="pu" x1="0" x2="1"><stop offset="0" stop-color="#c297ff"/><stop offset=".5" stop-color="#8250df"/><stop offset="1" stop-color="#0969da"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="3s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#1f2328"/><stop offset="1" stop-color="#8250df"/></linearGradient>
+</defs>
+<style>
+.big{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:38px;font-weight:800;fill:url(#tx)}
+.lab{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;fill:#8250df;letter-spacing:.5px}
+.sub{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:12.5px;fill:#59636e}
+.tile{opacity:0;animation:up .7s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.dot{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}
+</style>
+
+<g class="tile" style="animation-delay:0.25s">
+  <rect x="0.5" y=".5" width="204" height="149" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="1" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="20" y="66" class="big">1,750+</text>
+  <text x="20" y="96" class="lab">commits</text>
+  <text x="20" y="120" class="sub">across the Ulta-Host org</text>
+  <circle cx="181" cy="28" r="5" fill="#8250df" class="dot" style="animation-delay:0.25s"/>
+</g>
+<g class="tile" style="animation-delay:0.50s">
+  <rect x="225.5" y=".5" width="204" height="149" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="226" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="245" y="66" class="big">23</text>
+  <text x="245" y="96" class="lab">repositories</text>
+  <text x="245" y="120" class="sub">products &amp; internal tools</text>
+  <circle cx="406" cy="28" r="5" fill="#8250df" class="dot" style="animation-delay:0.50s"/>
+</g>
+<g class="tile" style="animation-delay:0.75s">
+  <rect x="450.5" y=".5" width="204" height="149" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="451" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="470" y="66" class="big">6,085</text>
+  <text x="470" y="96" class="lab">CI tests</text>
+  <text x="470" y="120" class="sub">in one grouped lane</text>
+  <circle cx="631" cy="28" r="5" fill="#8250df" class="dot" style="animation-delay:0.75s"/>
+</g>
+<g class="tile" style="animation-delay:1.00s">
+  <rect x="675.5" y=".5" width="204" height="149" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="676" y="1" width="203" height="3" rx="1.5" fill="url(#pu)" class="bar"/>
+  <text x="695" y="66" class="big">129</text>
+  <text x="695" y="96" class="lab">API operations</text>
+  <text x="695" y="120" class="sub">OpenAPI with drift gates</text>
+  <circle cx="856" cy="28" r="5" fill="#8250df" class="dot" style="animation-delay:1.00s"/>
+</g>
+</svg>

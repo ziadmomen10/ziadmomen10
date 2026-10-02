@@ -239,7 +239,7 @@ def divider():
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="14" viewBox="0 0 1000 14" preserveAspectRatio="none" role="img" aria-label="">
 <defs>
 <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="{C["blue2"]}" stop-opacity="0"/><stop offset=".5" stop-color="{C["blue"]}"/><stop offset="1" stop-color="{C["purple"]}" stop-opacity="0"/></linearGradient>
-<radialGradient id="r"><stop offset="0" stop-color="#ffffff"/><stop offset=".4" stop-color="{C["blue"]}"/><stop offset="1" stop-color="{C["blue"]}" stop-opacity="0"/></radialGradient>
+<radialGradient id="r"><stop offset="0" stop-color="#fefefe"/><stop offset=".4" stop-color="{C["blue"]}"/><stop offset="1" stop-color="{C["blue"]}" stop-opacity="0"/></radialGradient>
 </defs>
 <rect x="0" y="6" width="1000" height="2" fill="url(#g)"/>
 <ellipse cy="7" rx="60" ry="6" fill="url(#r)"><animate attributeName="cx" values="-60;1060" dur="4s" repeatCount="indefinite"/></ellipse>

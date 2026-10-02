@@ -60,7 +60,7 @@ def hero():
         x, y = rnd.uniform(20, Wh - 20), rnd.uniform(14, hz - 10)
         r = rnd.choice([0.8, 1.1, 1.5, 2])
         d = rnd.uniform(2, 6)
-        col = rnd.choice([C["blue"], "#ffffff", C["purple"], "#ffffff"])
+        col = rnd.choice([C["blue"], "#fefefe", C["purple"], "#fefefe"])
         parts.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{col}">'
                      f'<animate attributeName="opacity" values="0;1;0" dur="{d:.1f}s" begin="{-rnd.uniform(0, d):.1f}s" repeatCount="indefinite"/>'
                      f'<animate attributeName="cy" values="{y:.0f};{y - 18:.0f}" dur="{d * 2:.1f}s" repeatCount="indefinite"/></circle>')
@@ -84,7 +84,7 @@ def hero():
                             f'<animate attributeName="r" values="5;13" dur="1.6s" repeatCount="indefinite"/>'
                             f'<animate attributeName="opacity" values=".9;0" dur="1.6s" repeatCount="indefinite"/></circle>')
         cx += w + 16
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{Wh}" height="{Hh}" viewBox="0 0 {Wh} {Hh}" role="img" aria-label="Ziad Momen — Technical Product Owner, Platform Engineer, Creator of Zaude">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{Wh}" height="{Hh}" viewBox="0 0 {Wh} {Hh}" role="img" aria-label="Ziad Momen — Director of Product and Engineering at UltaHost, Creator of Zaude">
 <defs>
 <clipPath id="cl"><rect width="{Wh}" height="{Hh}" rx="18"/></clipPath>
 <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
@@ -118,7 +118,7 @@ def hero():
 <circle cx="1146" cy="130" r="3.5" fill="{C["purple"]}" stroke="none"><animateTransform attributeName="transform" type="rotate" from="360 1090 130" to="0 1090 130" dur="8s" repeatCount="indefinite"/></circle>
 </g>
 <g class="in" style="animation-delay:.2s"><text x="{Wh / 2}" y="140" text-anchor="middle" class="name" fill="url(#name)" filter="url(#glow)">Ziad Momen</text></g>
-<g class="in" style="animation-delay:.7s"><text x="{Wh / 2}" y="196" text-anchor="middle" class="sub">TECHNICAL PRODUCT OWNER · PLATFORM ENGINEER · CREATOR OF ZAUDE™</text></g>
+<g class="in" style="animation-delay:.7s"><text x="{Wh / 2}" y="196" text-anchor="middle" class="sub">DIRECTOR OF PRODUCT &amp; ENGINEERING · ULTAHOST · CREATOR OF ZAUDE™</text></g>
 {"".join(chip_svg)}
 </g>
 <rect x="1" y="1" width="{Wh - 2}" height="{Hh - 2}" rx="18" fill="none" stroke="{C["border"]}"/>
@@ -132,7 +132,7 @@ def about():
     K, S, P, F, D, N = "#ff7b72", "#a5d6ff", "#79c0ff", "#d2a8ff", C["dim"], C["text"]
     L = [
         [("const ", K), ("ziad", F), (" = {", N)],
-        [("  role", P), (":     ", N), ('"Technical Product Owner & Platform Engineer"', S), (",", N)],
+        [("  role", P), (":     ", N), ('"Director of Product & Engineering"', S), (",", N)],
         [("  company", P), (":  ", N), ('"UltaHost"', S), (",", N), ("          // org admin", D)],
         [("  location", P), (": ", N), ('"Egypt"', S), (",", N)],
         [("  shipping", P), (": [", N), ('"Zaude™"', S), (", ", N), ('"AI Hosting Assistant"', S), (", ", N), ('"Supabase Platform"', S), (", ", N), ('"CommunityOS"', S), ("],", N)],
@@ -163,7 +163,7 @@ def about():
     n = len(L)
     Hh = y0 + n * lh + 24
     cur_t = .3 + n * .28
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{Hh}" viewBox="0 0 {W} {Hh}" role="img" aria-label="ziad.ts — role: Technical Product Owner and Platform Engineer at UltaHost, Egypt. Shipping Zaude, AI Hosting Assistant, Supabase Platform, CommunityOS. Stack: React, Next.js, NestJS, Hono, Bun, PostgreSQL, Supabase, Docker, Claude.">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{Hh}" viewBox="0 0 {W} {Hh}" role="img" aria-label="ziad.ts — role: Director of Product and Engineering at UltaHost, Egypt. Shipping Zaude, AI Hosting Assistant, Supabase Platform, CommunityOS. Stack: React, Next.js, NestJS, Hono, Bun, PostgreSQL, Supabase, Docker, Claude.">
 <defs>{grads()}<clipPath id="c"><rect width="{W}" height="{Hh}" rx="12"/></clipPath></defs>
 <style>
 text{{font-family:{MONO};font-size:13.5px;white-space:pre}}
@@ -375,14 +375,14 @@ def projects():
 
 
 # ─────────────────────────────── STACK MARQUEE ───────────────────────────────
-def fetch_icon(i):
+def fetch_icon(i, theme="dark"):
     import os
     import subprocess
-    cache = Path(os.environ.get("ICON_CACHE", OUT / ".icons")) / f"icon_{i}.svg"
+    cache = Path(os.environ.get("ICON_CACHE", OUT / ".icons")) / (f"icon_{i}.svg" if theme == "dark" else f"icon_{i}_{theme}.svg")
     if cache.exists():  # pre-fetch with: curl -s "https://skillicons.dev/icons?i=<id>" > icon_<id>.svg
         raw = cache.read_text(encoding="utf-8")
     else:
-        raw = subprocess.run(["curl", "-s", "-m", "30", f"https://skillicons.dev/icons?i={i}"],
+        raw = subprocess.run(["curl", "-s", "-m", "30", f"https://skillicons.dev/icons?i={i}&theme={theme}"],
                              capture_output=True, check=True).stdout.decode()
     inner = re.search(r'<svg[^>]*width="256"[^>]*>(.*)</svg>\s*</g>', raw, re.S)
     body = inner.group(1) if inner else raw
@@ -392,14 +392,14 @@ def fetch_icon(i):
     return f'<symbol id="ic_{i}" viewBox="0 0 256 256">{body}</symbol>'
 
 
-def stack():
+def stack(theme="dark", name="stack.svg"):
     rows = [
         ("LANGUAGES & FRONTEND", ["ts", "js", "py", "bash", "powershell", "react", "nextjs", "vite", "tailwind", "figma"], 1),
         ("BACKEND & DATA", ["nodejs", "bun", "nestjs", "express", "prisma", "postgres", "supabase", "redis", "mongodb", "sqlite"], -1),
         ("INFRA & QUALITY", ["docker", "githubactions", "nginx", "linux", "ubuntu", "git", "github", "jest", "vitest", "vscode"], 1),
     ]
     pills = ["Claude Code", "Claude API", "Playwright", "n8n", "Proxmox", "Caddy", "Tailscale", "OpenAPI", "Expo", "BullMQ", "Drizzle", "LiteLLM"]
-    syms = "".join(fetch_icon(i) for _, ids, _ in rows for i in ids)
+    syms = "".join(fetch_icon(i, theme) for _, ids, _ in rows for i in ids)
     size, gap = 54, 22
     y = 46
     body = []
@@ -444,7 +444,7 @@ def stack():
 <rect x=".5" y=".5" width="{W - 1}" height="{Hh - 1}" rx="14" fill="none" stroke="{C["border"]}"/>
 {sweep_rect(.5, .5, W - 1, Hh - 1, 14, "gb", dur=10)}
 </svg>'''
-    save("stack.svg", svg)
+    save(name, svg)
 
 
 # ─────────────────────────────── FOOTER ───────────────────────────────
