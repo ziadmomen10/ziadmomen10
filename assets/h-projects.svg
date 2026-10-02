@@ -19,7 +19,7 @@
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="#58a6ff" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
-<rect x="6" y="14" width="52" height="52" rx="14" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".55"/>
+<circle cx="32" cy="40" r="27" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".6"/>
 <g transform="translate(8 16)" fill="none" stroke="#58a6ff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M28 8c6 0 12 6 12 12L26 34l-12-12zM14 22l-6 2 4 6M26 34l-2 6-6-4M18 30l-6 6M31 17h.01"/><path class="trace" pathLength="100" stroke="#fefefe" stroke-width="2.6" d="M28 8c6 0 12 6 12 12L26 34l-12-12zM14 22l-6 2 4 6M26 34l-2 6-6-4M18 30l-6 6M31 17h.01"/></g>
 <g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="#58a6ff">05 — PROJECTS</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">What I Build</text></g>

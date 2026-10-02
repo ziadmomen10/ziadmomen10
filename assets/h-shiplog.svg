@@ -19,7 +19,7 @@
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="#3fb950" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
-<rect x="6" y="14" width="52" height="52" rx="14" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".55"/>
+<circle cx="32" cy="40" r="27" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".6"/>
 <g transform="translate(8 16)" fill="none" stroke="#3fb950" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 42a18 18 0 1 0 0-36 18 18 0 0 0 0 36zM24 14v10l7 5"/><path class="trace" pathLength="100" stroke="#fefefe" stroke-width="2.6" d="M24 42a18 18 0 1 0 0-36 18 18 0 0 0 0 36zM24 14v10l7 5"/></g>
 <g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="#3fb950">04 — TIMELINE</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">2026 Ship Log</text></g>

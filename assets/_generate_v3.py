@@ -59,7 +59,7 @@ def section_header(key, num, kicker, title, icon, c1, c2):
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="{c1}" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
-<rect x="6" y="14" width="52" height="52" rx="14" fill="{c1}" fill-opacity=".12" stroke="{c1}" stroke-opacity=".55"/>
+<circle cx="32" cy="40" r="27" fill="{c1}" fill-opacity=".12" stroke="{c1}" stroke-opacity=".6"/>
 <g transform="translate(8 16)" fill="none" stroke="{c1}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="{v2.ICON_PATHS[icon]}"/><path class="trace" pathLength="100" stroke="{C["glow"]}" stroke-width="2.6" d="{v2.ICON_PATHS[icon]}"/></g>
 <g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="{c1}">{num} — {escape(kicker)}</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">{escape(title)}</text></g>

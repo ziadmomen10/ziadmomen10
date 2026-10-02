@@ -19,7 +19,7 @@
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="#58a6ff" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
-<rect x="6" y="14" width="52" height="52" rx="14" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".55"/>
+<circle cx="32" cy="40" r="27" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".6"/>
 <g transform="translate(8 16)" fill="none" stroke="#58a6ff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 40c0-8 6-13 14-13s14 5 14 13"/><path class="trace" pathLength="100" stroke="#fefefe" stroke-width="2.6" d="M24 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 40c0-8 6-13 14-13s14 5 14 13"/></g>
 <g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="#58a6ff">01 — WHO I AM</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">About Me</text></g>

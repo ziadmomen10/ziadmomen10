@@ -19,7 +19,7 @@
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="#d29922" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
-<rect x="6" y="14" width="52" height="52" rx="14" fill="#d29922" fill-opacity=".12" stroke="#d29922" stroke-opacity=".55"/>
+<circle cx="32" cy="40" r="27" fill="#d29922" fill-opacity=".12" stroke="#d29922" stroke-opacity=".6"/>
 <g transform="translate(8 16)" fill="none" stroke="#d29922" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M27 4L10 27h12l-3 17 17-23H24z"/><path class="trace" pathLength="100" stroke="#fefefe" stroke-width="2.6" d="M27 4L10 27h12l-3 17 17-23H24z"/></g>
 <g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="#d29922">06 — TOOLKIT</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">Tech Stack</text></g>

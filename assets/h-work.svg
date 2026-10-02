@@ -19,7 +19,7 @@
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="#f778ba" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
-<rect x="6" y="14" width="52" height="52" rx="14" fill="#f778ba" fill-opacity=".12" stroke="#f778ba" stroke-opacity=".55"/>
+<circle cx="32" cy="40" r="27" fill="#f778ba" fill-opacity=".12" stroke="#f778ba" stroke-opacity=".6"/>
 <g transform="translate(8 16)" fill="none" stroke="#f778ba" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24zM24 29a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/><path class="trace" pathLength="100" stroke="#fefefe" stroke-width="2.6" d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24zM24 29a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/></g>
 <g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="#f778ba">07 — PRINCIPLES</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">How I Work</text></g>
