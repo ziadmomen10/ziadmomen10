@@ -247,9 +247,3 @@ def divider():
     (OUT / "divider.svg").write_text(svg, encoding="utf-8")
 
 
-terminal()
-pipeline()
-ultahost()
-divider()
-for f in sorted(OUT.iterdir()):
-    print(f.name, f.stat().st_size)
