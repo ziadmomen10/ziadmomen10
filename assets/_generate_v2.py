@@ -70,7 +70,7 @@ def hero():
         f'<animate attributeName="cy" values="{cy};{cy + dy};{cy}" dur="{d * 1.3:.1f}s" repeatCount="indefinite"/></circle>'
         for cx, cy, r, col, dx, dy, d in [(260, 120, 170, C["blue2"], 120, 40, 14), (900, 110, 190, "#7c3aed", -140, 50, 17),
                                           (600, 260, 150, "#0e7490", 80, -40, 12)])
-    chips = [("● shipping at UltaHost", C["green"], 330), ("Zaude™ · open source", C["blue"], 230), ("Egypt", C["purple"], 100)]
+    chips = [(t, c, len(t) * 8.6 + 44) for t, c in [("   shipping at UltaHost", C["green"]), ("Zaude™ · open source", C["blue"]), ("Egypt", C["purple"])]]
     total = sum(w for *_, w in chips) + 16 * (len(chips) - 1)
     cx = (Wh - total) / 2
     chip_svg = []
@@ -80,7 +80,7 @@ def hero():
             f'<rect x="{cx}" y="236" width="{w}" height="34" rx="17" fill="{col}" fill-opacity=".1" stroke="{col}" stroke-opacity=".6"/>'
             f'<text x="{cx + w / 2}" y="258" text-anchor="middle" class="chipt" fill="{col}">{escape(label)}</text></g>')
         if i == 0:
-            chip_svg.append(f'<circle cx="{cx + 26}" cy="253" r="9" fill="none" stroke="{C["green"]}">'
+            chip_svg.append(f'<circle cx="{cx + 24}" cy="253" r="4" fill="{C["green"]}"/><circle cx="{cx + 24}" cy="253" r="9" fill="none" stroke="{C["green"]}">'
                             f'<animate attributeName="r" values="5;13" dur="1.6s" repeatCount="indefinite"/>'
                             f'<animate attributeName="opacity" values=".9;0" dur="1.6s" repeatCount="indefinite"/></circle>')
         cx += w + 16
@@ -99,7 +99,7 @@ def hero():
 <style>
 .name{{font-family:{SANS};font-size:92px;font-weight:800;letter-spacing:-1px}}
 .sub{{font-family:{SANS};font-size:17px;font-weight:600;letter-spacing:5px;fill:{C["dim"]}}}
-.chipt{{font-family:{SANS};font-size:15px;font-weight:600}}
+.chipt{{font-family:{SANS};font-size:16px;font-weight:600;white-space:pre}}
 .in{{opacity:0;animation:in 1s cubic-bezier(.2,.8,.2,1) forwards}}
 .chip{{opacity:0;animation:in .8s cubic-bezier(.2,.8,.2,1) forwards}}
 @keyframes in{{from{{opacity:0;transform:translateY(16px)}}to{{opacity:1;transform:none}}}}
