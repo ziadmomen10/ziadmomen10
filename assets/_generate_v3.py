@@ -36,7 +36,7 @@ SECTIONS = lambda: [
 
 
 def section_header(key, num, kicker, title, icon, c1, c2):
-    Hh = 92
+    Hh = 100  # solid dark panel: identical in GitHub light and dark mode
     tw = len(title) * 17.5 + 10
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{Hh}" viewBox="0 0 {W} {Hh}" role="img" aria-label="{escape(title)}">
 <defs>
@@ -48,20 +48,25 @@ def section_header(key, num, kicker, title, icon, c1, c2):
 <style>
 .k{{font-family:{MONO};font-size:12px;font-weight:700;letter-spacing:3px}}
 .t{{font-family:{SANS};font-size:31px;font-weight:800;letter-spacing:-.3px}}
-.draw{{stroke-dasharray:240;stroke-dashoffset:240;animation:draw 5s ease-in-out infinite}}
-@keyframes draw{{0%{{stroke-dashoffset:240}}40%,85%{{stroke-dashoffset:0}}100%{{stroke-dashoffset:-240}}}}
+.trace{{stroke-dasharray:12 88;opacity:.9;animation:trace 3s linear infinite}}
+@keyframes trace{{to{{stroke-dashoffset:-100}}}}
 .in{{opacity:0;animation:in .9s cubic-bezier(.2,.8,.2,1) forwards}}
 @keyframes in{{from{{opacity:0;transform:translateX(-12px)}}to{{opacity:1;transform:none}}}}
 </style>
+<clipPath id="hc"><rect width="{W}" height="{Hh}" rx="14"/></clipPath>
+<rect width="{W}" height="{Hh}" rx="14" fill="{C["bg"]}"/>
+<rect x=".5" y=".5" width="{W - 1}" height="{Hh - 1}" rx="14" fill="none" stroke="{C["border"]}"/>
+<g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="{c1}" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
 <rect x="6" y="14" width="52" height="52" rx="14" fill="{c1}" fill-opacity=".12" stroke="{c1}" stroke-opacity=".55"/>
-<g transform="translate(8 16)" fill="none" stroke="{c1}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path class="draw" d="{v2.ICON_PATHS[icon]}"/></g>
+<g transform="translate(8 16)" fill="none" stroke="{c1}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="{v2.ICON_PATHS[icon]}"/><path class="trace" pathLength="100" stroke="{C["glow"]}" stroke-width="2.6" d="{v2.ICON_PATHS[icon]}"/></g>
 <g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="{c1}">{num} — {escape(kicker)}</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">{escape(title)}</text></g>
-<rect x="78" y="80" width="{W - 80}" height="2" rx="1" fill="url(#ul)" opacity=".35"/>
+<rect x="78" y="80" width="{W - 120}" height="2" rx="1" fill="url(#ul)" opacity=".35"/>
 <rect x="78" y="80" width="{min(tw, 420):.0f}" height="2" rx="1" fill="url(#ul)"/>
 <ellipse cy="81" rx="34" ry="5" fill="url(#dot)"><animate attributeName="cx" values="60;{W + 40}" dur="4s" repeatCount="indefinite"/></ellipse>
+</g></g>
 </svg>'''
     v2.save(f"h-{key}.svg", svg)
 
@@ -148,13 +153,8 @@ KEEP_DARK = {"zaude-terminal", "about"}  # code surfaces stay dark on light page
 if __name__ == "__main__":
     for old in OUT.glob("*.svg"):
         old.unlink()
+    # One design for both GitHub themes (operator decision 2026-10-02: the dark design reads best
+    # in light mode too). The light theme tokens stay in _generate.py if a light set is ever wanted.
     v1.set_theme("dark"); build_all("dark")
-    dark = {f.stem: f.read_text(encoding="utf-8") for f in OUT.glob("*.svg")}
-    v1.set_theme("light"); build_all("light")
-    for f in list(OUT.glob("*.svg")):
-        light_svg = dark[f.stem] if f.stem in KEEP_DARK else f.read_text(encoding="utf-8")
-        (OUT / f"{f.stem}-light.svg").write_text(light_svg, encoding="utf-8")
-        f.write_text(dark[f.stem], encoding="utf-8")
-    v1.set_theme("dark")
     files = sorted(OUT.glob("*.svg"))
     print(len(files), "SVGs written")

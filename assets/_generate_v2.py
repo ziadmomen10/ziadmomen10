@@ -259,8 +259,8 @@ def card_grid(name, label, cards, cols, card_h, icon_fn=None, gap=18, title_size
 .chip{{font-family:{MONO};font-size:11.5px}}
 .card{{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}}
 @keyframes up{{from{{opacity:0;transform:translateY(14px)}}to{{opacity:1;transform:none}}}}
-.draw{{stroke-dasharray:240;stroke-dashoffset:240;animation:draw 6s ease-in-out infinite}}
-@keyframes draw{{0%{{stroke-dashoffset:240}}35%,80%{{stroke-dashoffset:0}}100%{{stroke-dashoffset:-240}}}}
+.trace{{stroke-dasharray:12 88;opacity:.9;animation:trace 3.2s linear infinite}}
+@keyframes trace{{to{{stroke-dashoffset:-100}}}}
 </style>
 {"".join(out)}
 </svg>'''
@@ -290,7 +290,8 @@ ICON_PATHS = {
 def line_icon(key, x, y, col):
     return (f'<rect x="{x}" y="{y}" width="52" height="52" rx="12" fill="{col}" fill-opacity=".1" stroke="{col}" stroke-opacity=".4"/>'
             f'<g transform="translate({x + 2} {y + 2})" fill="none" stroke="{col}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">'
-            f'<path class="draw" d="{ICON_PATHS[key]}"/></g>')
+            f'<path d="{ICON_PATHS[key]}"/>'
+            f'<path class="trace" pathLength="100" stroke="{C["glow"]}" stroke-width="2.6" d="{ICON_PATHS[key]}"/></g>')
 
 
 def ultahost_areas():
@@ -476,8 +477,10 @@ def footer():
 .q{{font-family:{SANS};font-size:40px;font-weight:800;letter-spacing:-.5px}}
 .s{{font-family:{MONO};font-size:13px;letter-spacing:3px;fill:{C["dim"]}}}
 </style>
-<rect width="{Wf}" height="{Hf}" fill="url(#bgf)"/>
-{"".join(waves)}
+<clipPath id="fc"><rect width="{Wf}" height="{Hf}" rx="18"/></clipPath>
+<g clip-path="url(#fc)"><rect width="{Wf}" height="{Hf}" fill="{C["hero_bg"]}"/>
+{"".join(waves)}</g>
+<rect x="1" y="1" width="{Wf - 2}" height="{Hf - 2}" rx="18" fill="none" stroke="{C["border"]}"/>
 <text x="{Wf / 2}" y="70" text-anchor="middle" class="q" fill="url(#t)">Don't vibe code. Zaude code.</text>
 <text x="{Wf / 2}" y="104" text-anchor="middle" class="s">THANKS FOR STOPPING BY · LET'S BUILD SOMETHING REAL</text>
 </svg>'''
