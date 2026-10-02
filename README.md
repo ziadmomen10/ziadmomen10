@@ -19,6 +19,8 @@
 
 <br/>
 
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
+
 <!-- ══════════════════════ ABOUT ══════════════════════ -->
 
 <details open>
@@ -53,6 +55,8 @@ quality:    [Playwright, Jest, Vitest, OpenAPI drift gates, CI ratchets]
 
 </details>
 
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
+
 <!-- ══════════════════════ ULTAHOST ══════════════════════ -->
 
 <details open>
@@ -69,10 +73,7 @@ quality:    [Playwright, Jest, Vitest, OpenAPI drift gates, CI ratchets]
 
 I own product and platform work across UltaHost's engineering org. I write the spec, design the architecture, ship to production, and keep it running. Most of the code is private, so here is what's behind it:
 
-<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/commits-1%2C750%2B-58a6ff?style=for-the-badge&labelColor=161b22" /></a>
-<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/repositories-23-58a6ff?style=for-the-badge&labelColor=161b22" /></a>
-<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/CI_tests-6%2C000%2B-10b981?style=for-the-badge&labelColor=161b22" /></a>
-<a href="https://github.com/Ulta-Host"><img src="https://img.shields.io/badge/role-org_admin-8b949e?style=for-the-badge&labelColor=161b22" /></a>
+<a href="https://github.com/Ulta-Host"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/ultahost-stats.svg" alt="UltaHost footprint: 1,750+ commits, 23 repositories, 6,085 CI tests, 129 API operations" /></a>
 
 <sub>Counted from default branches of the Ulta-Host org repos, October 2026.</sub>
 
@@ -83,22 +84,22 @@ I own product and platform work across UltaHost's engineering org. I write the s
 <table>
 <tr>
 <td align="center" width="25%" valign="top">
-<h3>&#129302;</h3>
+<h2>&#129302;</h2>
 <b>AI Hosting Assistant</b><br/>
 <sub>Chat-driven server management that plans, authorizes, runs, and verifies work on real customer servers</sub>
 </td>
 <td align="center" width="25%" valign="top">
-<h3>&#9729;&#65039;</h3>
+<h2>&#9729;&#65039;</h2>
 <b>Hosting Platform</b><br/>
 <sub>Moves apps onto self-hosted Supabase, with provisioning, data sync, and production review gates</sub>
 </td>
 <td align="center" width="25%" valign="top">
-<h3>&#128736;&#65039;</h3>
+<h2>&#128736;&#65039;</h2>
 <b>DevOps &amp; Monitoring</b><br/>
 <sub>Infrastructure control panel, CI/CD with auto-rollback, and Prometheus + Grafana observability</sub>
 </td>
 <td align="center" width="25%" valign="top">
-<h3>&#128101;</h3>
+<h2>&#128101;</h2>
 <b>Internal Business Tools</b><br/>
 <sub>HR, marketing, referral, and offer-generation apps used by UltaHost teams</sub>
 </td>
@@ -106,6 +107,8 @@ I own product and platform work across UltaHost's engineering org. I write the s
 </table>
 
 </details>
+
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
 
 <!-- ══════════════════════ FLAGSHIP ══════════════════════ -->
 
@@ -119,6 +122,8 @@ I own product and platform work across UltaHost's engineering org. I write the s
 ### *Don't vibe code. Zaude code.*
 
 **An autonomous, self-governing layer on top of Claude Code, built for people who ship to production.**
+
+<a href="https://github.com/ziadmomen10/zaude"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/zaude-terminal.svg" alt="Animated Zaude session: a plain-language request routed through plan, build, test, a 5-model review panel, verification and a signed release" /></a>
 
 </div>
 
@@ -153,6 +158,8 @@ Use Claude Code for a few weeks on a real project and it starts each session col
 </div>
 
 </details>
+
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
 
 <!-- ══════════════════════ WORK ══════════════════════ -->
 
@@ -252,6 +259,8 @@ A CV builder with a deterministic ATS engine. The PDF is rendered from the same 
 
 </details>
 
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
+
 <!-- ══════════════════════ TECH STACK ══════════════════════ -->
 
 <details open>
@@ -283,10 +292,14 @@ A CV builder with a deterministic ATS engine. The PDF is rendered from the same 
 
 </details>
 
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
+
 <!-- ══════════════════════ HOW I WORK ══════════════════════ -->
 
 <details open>
 <summary><h2>&#129504; How I Work</h2></summary>
+
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/pipeline.svg" alt="How I ship: design, build, 5-model review, verify, ship" /></div>
 
 <table>
 <tr>
@@ -313,6 +326,8 @@ A CV builder with a deterministic ATS engine. The PDF is rendered from the same 
 
 </details>
 
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
+
 <!-- ══════════════════════ STATS ══════════════════════ -->
 
 <details open>
@@ -333,6 +348,8 @@ A CV builder with a deterministic ATS engine. The PDF is rendered from the same 
 </div>
 
 </details>
+
+<div align="center"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" /></div>
 
 <!-- ══════════════════════ FOOTER ══════════════════════ -->
 

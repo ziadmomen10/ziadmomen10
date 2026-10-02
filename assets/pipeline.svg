@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="205" viewBox="0 0 880 205" role="img" aria-label="How I ship: design, build, 5-model review, verify, ship">
+<defs>
+<linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="850" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#ffa657"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<style>
+.t{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;fill:#ffffff}
+.s{font-family:'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;font-size:12.5px;fill:#8b949e}
+.num{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace;font-size:20px;font-weight:700}
+.ring{opacity:0;animation:ring 6.0s ease-out infinite}
+@keyframes ring{0%{opacity:.9;transform:scale(1)}22%{opacity:0;transform:scale(1.45)}100%{opacity:0}}
+.lit{opacity:0;animation:lit 6.0s ease-out infinite}
+@keyframes lit{0%{opacity:.35}25%{opacity:.06}100%{opacity:.06}}
+.flow{stroke-dasharray:6 10;animation:flow 1.2s linear infinite}@keyframes flow{to{stroke-dashoffset:-16}}
+</style>
+<rect width="880" height="205" rx="14" fill="#0d1117"/>
+<rect x=".5" y=".5" width="879" height="204" rx="14" fill="none" stroke="#30363d"/>
+<path d="M30,78 L850,78" stroke="url(#ln)" stroke-width="3" opacity=".35"/>
+<path d="M30,78 L850,78" stroke="url(#ln)" stroke-width="2" class="flow"/>
+<g filter="url(#blur)"><circle r="7" fill="#58a6ff" opacity="1"><animateMotion dur="6.0s" begin="-0s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="5" fill="#58a6ff" opacity="0.55"><animateMotion dur="6.0s" begin="-0.09s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="3.5" fill="#58a6ff" opacity="0.3"><animateMotion dur="6.0s" begin="-0.18s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle></g>
+<circle r="7" fill="#58a6ff" opacity="1"><animateMotion dur="6.0s" begin="-0s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="5" fill="#58a6ff" opacity="0.55"><animateMotion dur="6.0s" begin="-0.09s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle><circle r="3.5" fill="#58a6ff" opacity="0.3"><animateMotion dur="6.0s" begin="-0.18s" repeatCount="indefinite" path="M30,78 L850,78" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/></circle>
+
+<g>
+  <circle cx="100" cy="78" r="34" fill="none" stroke="#58a6ff" stroke-width="2" class="ring" style="animation-delay:0.51s;transform-origin:100px 78px"/>
+  <circle cx="100" cy="78" r="34" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+  <circle cx="100" cy="78" r="34" fill="#58a6ff" class="lit" style="animation-delay:0.51s"/>
+  <text x="100" y="85" text-anchor="middle" class="num" fill="#58a6ff">01</text>
+  <text x="100" y="144" text-anchor="middle" class="t">DESIGN</text>
+  <text x="100" y="166" text-anchor="middle" class="s">whole system first</text>
+</g>
+<g>
+  <circle cx="270" cy="78" r="34" fill="none" stroke="#a371f7" stroke-width="2" class="ring" style="animation-delay:1.76s;transform-origin:270px 78px"/>
+  <circle cx="270" cy="78" r="34" fill="#161b22" stroke="#a371f7" stroke-width="2"/>
+  <circle cx="270" cy="78" r="34" fill="#a371f7" class="lit" style="animation-delay:1.76s"/>
+  <text x="270" y="85" text-anchor="middle" class="num" fill="#a371f7">02</text>
+  <text x="270" y="144" text-anchor="middle" class="t">BUILD</text>
+  <text x="270" y="166" text-anchor="middle" class="s">agents implement</text>
+</g>
+<g>
+  <circle cx="440" cy="78" r="34" fill="none" stroke="#ffa657" stroke-width="2" class="ring" style="animation-delay:3.00s;transform-origin:440px 78px"/>
+  <circle cx="440" cy="78" r="34" fill="#161b22" stroke="#ffa657" stroke-width="2"/>
+  <circle cx="440" cy="78" r="34" fill="#ffa657" class="lit" style="animation-delay:3.00s"/>
+  <text x="440" y="85" text-anchor="middle" class="num" fill="#ffa657">03</text>
+  <text x="440" y="144" text-anchor="middle" class="t">REVIEW</text>
+  <text x="440" y="166" text-anchor="middle" class="s">5 models · 0C / 0H</text>
+</g>
+<g>
+  <circle cx="610" cy="78" r="34" fill="none" stroke="#f778ba" stroke-width="2" class="ring" style="animation-delay:4.24s;transform-origin:610px 78px"/>
+  <circle cx="610" cy="78" r="34" fill="#161b22" stroke="#f778ba" stroke-width="2"/>
+  <circle cx="610" cy="78" r="34" fill="#f778ba" class="lit" style="animation-delay:4.24s"/>
+  <text x="610" y="85" text-anchor="middle" class="num" fill="#f778ba">04</text>
+  <text x="610" y="144" text-anchor="middle" class="t">VERIFY</text>
+  <text x="610" y="166" text-anchor="middle" class="s">real exit + live check</text>
+</g>
+<g>
+  <circle cx="780" cy="78" r="34" fill="none" stroke="#3fb950" stroke-width="2" class="ring" style="animation-delay:5.49s;transform-origin:780px 78px"/>
+  <circle cx="780" cy="78" r="34" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+  <circle cx="780" cy="78" r="34" fill="#3fb950" class="lit" style="animation-delay:5.49s"/>
+  <text x="780" y="85" text-anchor="middle" class="num" fill="#3fb950">05</text>
+  <text x="780" y="144" text-anchor="middle" class="t">SHIP</text>
+  <text x="780" y="166" text-anchor="middle" class="s">signed · with evidence</text>
+</g>
+<g><circle cx="488" cy="78" r="4" fill="#ffa657" transform="rotate(0 440 78)"/><circle cx="488" cy="78" r="4" fill="#c9d1d9" transform="rotate(72 440 78)"/><circle cx="488" cy="78" r="4" fill="#58a6ff" transform="rotate(144 440 78)"/><circle cx="488" cy="78" r="4" fill="#a371f7" transform="rotate(216 440 78)"/><circle cx="488" cy="78" r="4" fill="#f778ba" transform="rotate(288 440 78)"/><animateTransform attributeName="transform" type="rotate" from="0 440 78" to="360 440 78" dur="8s" repeatCount="indefinite"/></g>
+</svg>
