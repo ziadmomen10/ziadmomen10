@@ -6,7 +6,12 @@ RAW = "https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/"
 
 
 def pic(name, alt, href=None, width="100%"):
-    tag = f'<img width="{width}" src="{RAW}{name}.svg" alt="{alt}" />'
+    if name.startswith("h-"):  # section titles have a light variant; everything else is one dark design
+        tag = (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{RAW}{name}.svg" />'
+               f'<source media="(prefers-color-scheme: light)" srcset="{RAW}{name}-light.svg" />'
+               f'<img width="{width}" src="{RAW}{name}.svg" alt="{alt}" /></picture>')
+    else:
+        tag = f'<img width="{width}" src="{RAW}{name}.svg" alt="{alt}" />'
     return f'<a href="{href}">{tag}</a>' if href else tag
 
 

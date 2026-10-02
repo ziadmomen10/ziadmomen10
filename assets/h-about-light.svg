@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="100" viewBox="0 0 880 100" role="img" aria-label="About Me">
 <defs>
-<linearGradient id="tg" x1="0" x2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#a371f7"/>
+<linearGradient id="tg" x1="0" x2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4f46e5"/><stop offset=".5" stop-color="#0f172a"/><stop offset="1" stop-color="#7c3aed"/>
 <animateTransform attributeName="gradientTransform" type="translate" values="-.7 0;.7 0;-.7 0" dur="6s" repeatCount="indefinite"/></linearGradient>
-<linearGradient id="ul" gradientUnits="userSpaceOnUse" x1="0" x2="880"><stop offset="0" stop-color="#58a6ff"/><stop offset=".4" stop-color="#a371f7"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/></linearGradient>
-<radialGradient id="dot"><stop offset="0" stop-color="#fefefe"/><stop offset=".35" stop-color="#58a6ff"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="ul" gradientUnits="userSpaceOnUse" x1="0" x2="880"><stop offset="0" stop-color="#4f46e5"/><stop offset=".4" stop-color="#7c3aed"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+<radialGradient id="dot"><stop offset="0" stop-color="#6366f1"/><stop offset=".35" stop-color="#4f46e5"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
 </defs>
 <style>
 .k{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace;font-size:12px;font-weight:700;letter-spacing:3px}
@@ -14,13 +14,13 @@
 @keyframes in{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
 </style>
 <clipPath id="hc"><rect width="880" height="100" rx="14"/></clipPath>
-<rect width="880" height="100" rx="14" fill="#0d1117"/><rect x=".5" y=".5" width="879" height="99" rx="14" fill="none" stroke="#30363d"/>
+
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
-<circle cx="32" cy="40" r="30" fill="none" stroke="#58a6ff" stroke-width="1.5">
+<circle cx="32" cy="40" r="30" fill="none" stroke="#4f46e5" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
-<circle cx="32" cy="40" r="27" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".6"/>
-<g transform="translate(8 16)" fill="none" stroke="#58a6ff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 40c0-8 6-13 14-13s14 5 14 13"/><path class="trace" pathLength="100" stroke="#fefefe" stroke-width="2.6" d="M24 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 40c0-8 6-13 14-13s14 5 14 13"/></g>
-<g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="#58a6ff">01 — WHO I AM</text></g>
+<circle cx="32" cy="40" r="27" fill="#4f46e5" fill-opacity=".12" stroke="#4f46e5" stroke-opacity=".6"/>
+<g transform="translate(8 16)" fill="none" stroke="#4f46e5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 40c0-8 6-13 14-13s14 5 14 13"/><path class="trace" pathLength="100" stroke="#6366f1" stroke-width="2.6" d="M24 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 40c0-8 6-13 14-13s14 5 14 13"/></g>
+<g class="in" style="animation-delay:.1s"><text x="78" y="32" class="k" fill="#4f46e5">01 — WHO I AM</text></g>
 <g class="in" style="animation-delay:.3s"><text x="76" y="66" class="t" fill="url(#tg)">About Me</text></g>
 <rect x="78" y="80" width="760" height="2" rx="1" fill="url(#ul)" opacity=".35"/>
 <rect x="78" y="80" width="150" height="2" rx="1" fill="url(#ul)"/>

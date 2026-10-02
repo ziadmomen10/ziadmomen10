@@ -38,6 +38,10 @@ SECTIONS = lambda: [
 def section_header(key, num, kicker, title, icon, c1, c2):
     Hh = 100  # solid dark panel: identical in GitHub light and dark mode
     tw = len(title) * 17.5 + 10
+    # dark mode: solid dark panel. light mode: no panel — the title blends into GitHub's white page.
+    panel = ("" if C["mode"] == "light" else
+             f'<rect width="{W}" height="{Hh}" rx="14" fill="{C["bg"]}"/>'
+             f'<rect x=".5" y=".5" width="{W - 1}" height="{Hh - 1}" rx="14" fill="none" stroke="{C["border"]}"/>')
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{Hh}" viewBox="0 0 {W} {Hh}" role="img" aria-label="{escape(title)}">
 <defs>
 <linearGradient id="tg" x1="0" x2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="{c1}"/><stop offset=".5" stop-color="{C["title"]}"/><stop offset="1" stop-color="{c2}"/>
@@ -54,8 +58,7 @@ def section_header(key, num, kicker, title, icon, c1, c2):
 @keyframes in{{from{{opacity:0;transform:translateX(-12px)}}to{{opacity:1;transform:none}}}}
 </style>
 <clipPath id="hc"><rect width="{W}" height="{Hh}" rx="14"/></clipPath>
-<rect width="{W}" height="{Hh}" rx="14" fill="{C["bg"]}"/>
-<rect x=".5" y=".5" width="{W - 1}" height="{Hh - 1}" rx="14" fill="none" stroke="{C["border"]}"/>
+{panel}
 <g clip-path="url(#hc)"><g transform="translate(16 6)">
 <circle cx="32" cy="40" r="30" fill="none" stroke="{c1}" stroke-width="1.5">
 <animate attributeName="r" values="27;38" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
@@ -156,5 +159,14 @@ if __name__ == "__main__":
     # One design for both GitHub themes (operator decision 2026-10-02: the dark design reads best
     # in light mode too). The light theme tokens stay in _generate.py if a light set is ever wanted.
     v1.set_theme("dark"); build_all("dark")
+    # Only the section titles follow GitHub's theme; every other visual is the same dark design in both.
+    dark_h = {f.stem: f.read_text(encoding="utf-8") for f in OUT.glob("h-*.svg")}
+    v1.set_theme("light")
+    for sec in SECTIONS():
+        section_header(*sec)
+    for stem, svg in dark_h.items():
+        (OUT / f"{stem}.svg").replace(OUT / f"{stem}-light.svg")
+        (OUT / f"{stem}.svg").write_text(svg, encoding="utf-8")
+    v1.set_theme("dark")
     files = sorted(OUT.glob("*.svg"))
     print(len(files), "SVGs written")

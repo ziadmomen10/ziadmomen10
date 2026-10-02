@@ -16,7 +16,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-about.svg" alt="About Me" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-about.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-about-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-about.svg" alt="About Me" /></picture>
 
 I'm the **Director of Product & Engineering at [UltaHost](https://ultahost.com)** in Egypt. I own products from the first data model to the production server: I set direction, design the systems, ship them and run them. I lead AI agents as an engineering team that has to **prove** its work: a green build with a real exit code, a multi-model review with zero critical or high findings, and a check of the live app.
 
@@ -24,7 +24,7 @@ I'm the **Director of Product & Engineering at [UltaHost](https://ultahost.com)*
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-ultahost.svg" alt="At UltaHost" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-ultahost.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-ultahost-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-ultahost.svg" alt="At UltaHost" /></picture>
 
 <table>
 <tr>
@@ -49,7 +49,7 @@ I lead product and engineering across UltaHost's org: direction, architecture, d
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<a href="https://github.com/ziadmomen10/zaude"><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-zaude.svg" alt="Flagship — Zaude" /></a>
+<a href="https://github.com/ziadmomen10/zaude"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-zaude.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-zaude-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-zaude.svg" alt="Flagship — Zaude" /></picture></a>
 
 <div align="center">
 
@@ -74,13 +74,13 @@ Small stdlib-only Python kernel · never calls an API · MIT
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-shiplog.svg" alt="2026 Ship Log" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-shiplog.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-shiplog-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-shiplog.svg" alt="2026 Ship Log" /></picture>
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/shiplog.svg" alt="2026 ship log: Apr 17 Zaude born; Apr 29 AI product UI live with 776 tests; May 19 AtomOS v1.1 live; May 19 AI hiring POC; Jun 21 Zaude 3; Jul 06 5-model review panel; Sep 6,085 CI tests; Oct 1,750+ UltaHost commits" />
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-projects.svg" alt="What I Build" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-projects.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-projects-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-projects.svg" alt="What I Build" /></picture>
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/projects.svg" alt="Projects: AI Server-Management Assistant (UltaHost, active), Self-Hosted Supabase Platform (UltaHost, active, 6,085 CI tests), AtomOS (client, live), CommunityOS (active, 47/47 security findings fixed), AI Product UI Rebuild (UltaHost, shipped, 776 tests), Masir (live MVP)" />
 
@@ -100,13 +100,13 @@ Small stdlib-only Python kernel · never calls an API · MIT
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-stack.svg" alt="Tech Stack" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-stack.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-stack-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-stack.svg" alt="Tech Stack" /></picture>
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/stack.svg" alt="Tech stack: TypeScript, JavaScript, Python, React, Next.js, Vite, Tailwind, Node.js, Bun, NestJS, Prisma, PostgreSQL, Supabase, Redis, MongoDB, Docker, GitHub Actions, Nginx, Linux, Jest, Vitest, Claude Code, Playwright, n8n, Proxmox" />
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-work.svg" alt="How I Work" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-work.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-work-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-work.svg" alt="How I Work" /></picture>
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/pipeline.svg" alt="How I ship: design, build, 5-model review, verify, ship" />
 
@@ -114,7 +114,7 @@ Small stdlib-only Python kernel · never calls an API · MIT
 
 <img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/divider.svg" alt="" />
 
-<img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-activity.svg" alt="GitHub Activity" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-activity.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-activity-light.svg" /><img width="100%" src="https://raw.githubusercontent.com/ziadmomen10/ziadmomen10/main/assets/h-activity.svg" alt="GitHub Activity" /></picture>
 
 <div align="center">
 
